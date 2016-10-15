@@ -17,7 +17,6 @@ ul {
     width: 25%;
 }
 
-
 #nav li {
   list-style-type: none;
   float:left;
@@ -29,9 +28,16 @@ ul {
   display: block;
 }
 
+#about {
+  color: black;
+  background-color: #EEAC00;
+  text-align: left;
+}
+
 #collab {
   color: black;
   background-color: #EEAC00;
+  text-align: left;
 }
 
 .column1of3, .column2of3, .column3of3 {
