@@ -1,0 +1,45 @@
+
+h3{
+
+background: repeating-linear-gradient(
+  to right,
+  #f6ba52,
+  #f6ba52 10px,
+  #ffd180 10px,
+  #ffd180 20px
+)
+}
+
+h4{
+
+background: repeating-linear-gradient(
+  to right,
+  #f6ba52,
+  #f6ba52 10px,
+  #ffd180 10px,
+  #ffd180 20px
+)
+}
+
+
+h5{
+
+background: repeating-linear-gradient(
+  to right,
+  #f6ba52,
+  #f6ba52 10px,
+  #ffd180 10px,
+  #ffd180 20px
+)
+}
+
+body{
+}
+
+#nav li {
+  list-style-type: none;
+  float:left;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+}
