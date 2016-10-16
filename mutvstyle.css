@@ -1,6 +1,8 @@
-
-
 body{
+}
+
+h1 {
+  text-align: center;
 }
 
 #nav1 {
@@ -15,13 +17,13 @@ li{
 #nav li {
   list-style-type: none;
   text-align: left;
-  margin: 1px;
+  margin: 5%;
   padding: 0;
-  width: 25%;
+  width: 0;
 }
 
 #container{
     margin: 10px  auto  10px  auto;
     width: 90%;
-    text-align: center;
+    text-align: left;
 }
