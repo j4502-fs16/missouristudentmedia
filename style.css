@@ -10,12 +10,22 @@ body{
   padding-right: 50px;
 }
 
+#container{
+    width: 100%;
+    background-color: #ffffff;
+    margin: 0 auto;
+  }
 
-#nav li {
+#nav{
+  padding: 0;
+}
+
+#nav li{
   list-style-type: none;
   float:left;
   margin: 0;
   padding: 0;
+  padding-bottom: 50px;
   width: 25%;
   text-decoration: underline;
   text-align: center;
