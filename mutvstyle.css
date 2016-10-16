@@ -8,10 +8,20 @@ body{
   background-color: #EEAC00;
 }
 
+li{
+  display: inline;
+}
+
 #nav li {
   list-style-type: none;
-  float:left;
-  margin: 0;
+  text-align: left;
+  margin: 1px;
   padding: 0;
   width: 25%;
+}
+
+#container{
+    margin: 10px  auto  10px  auto;
+    width: 90%;
+    text-align: center;
 }
