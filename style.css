@@ -2,6 +2,7 @@ h1{
   text-align: center;
   font-family: 'Rubik', sans-serif;
   font-weight: normal;
+  font-size: 150px;
 }
 
 body{
@@ -20,7 +21,7 @@ body{
   padding: 0;
 }
 
-li{
+#nav li{
   display: inline;
 }
 
@@ -45,7 +46,15 @@ li{
 }
 
 .column1of3, .column2of3, .column3of3 {
+  display:inline;
   width: 300px;
-  float: left;
   margin: 10px;
+}
+
+
+#footer {
+    color: black;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 0.8em;
+    border-top: 1px solid black;
 }
