@@ -20,16 +20,16 @@ body{
   padding: 0;
 }
 
+li{
+  display: inline;
+}
+
 #nav li{
   list-style-type: none;
-  float:left;
-  margin: 0;
+  margin: auto;
   padding: 0;
   padding-bottom: 50px;
-  width: 25%;
-  text-decoration: underline;
-  text-align: center;
-  display: block;
+  width: 30%;
 }
 
 #about {
