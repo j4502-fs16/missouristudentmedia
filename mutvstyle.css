@@ -12,6 +12,8 @@ p{
 iframe {
     display: block;
     margin: 0 auto;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 object {
