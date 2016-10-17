@@ -37,3 +37,18 @@ li{
     width: 90%;
     text-align: left;
 }
+
+#nav1 li {
+  list-style-type: none;
+  margin: 5%;
+  padding: 0;
+  width: 0;
+}
+
+#footer {
+  color: black;
+    font-family: 'Slabo 27px', serif;
+    font-size: 0.8em;
+    border-top: 1px solid black;
+
+}
