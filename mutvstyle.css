@@ -1,4 +1,15 @@
 body{
+
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+object {
+    display: block;
+    margin: 0 auto;
 }
 
 h1{
@@ -41,22 +52,19 @@ li{
 #nav li {
   list-style-type: none;
   text-align: left;
-  margin: 5%;
+  margin: 3%;
   padding: 0;
   width: 0;
 }
 
 #container{
-    margin: 10px  auto  10px  auto;
-    width: 90%;
-    text-align: left;
+  margin: 5%;
+  display: block;
+  margin: 0 auto;
 }
 
 #nav1 li {
   list-style-type: none;
-  margin: 5%;
-  padding: 0;
-  width: 33%;
 }
 
 #footer {
