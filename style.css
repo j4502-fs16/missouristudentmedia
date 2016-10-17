@@ -48,7 +48,7 @@ body{
 .flex-container {
     display: -webkit-flex;
     display: flex;
-    width: 90%;
+    width: 100%;
 }
 
 .flex-item {
