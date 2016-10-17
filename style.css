@@ -9,6 +9,16 @@ h1{
   font-size: 70px;
 }
 
+p{
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+  font-family: 'Rubik', sans-serif;
+  font-weight: normal;
+}
+
 body{
   text-align: center;
   padding-left: 50px;
