@@ -11,6 +11,10 @@ body{
   padding-right: 50px;
 }
 
+p{
+
+}
+
 #container{
     width: 90%;
     background-color: #ffffff;
@@ -54,6 +58,8 @@ body{
 .flex-item {
     width: 30%;
     margin: 10px;
+    font-size: 35px;
+
 }
 
 #footer {
