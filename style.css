@@ -29,6 +29,7 @@ body{
     width: 90%;
     background-color: #ffffff;
     margin: 0 auto;
+    padding-bottom:55px;
   }
 
 #nav{
@@ -43,7 +44,6 @@ body{
   list-style-type: none;
   margin: auto;
   padding: 0;
-  padding-bottom: 50px;
   width: 30%;
 }
 
