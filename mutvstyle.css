@@ -5,7 +5,17 @@ h1 {
   text-align: center;
 }
 
-#nav1 {
+#STREAM {
+  color: black;
+  background-color: #EEAC00;
+}
+
+#JOIN {
+  color: black;
+  background-color: #EEAC00;
+}
+
+#WEEKLYSCHEDULE {
   color: black;
   background-color: #EEAC00;
 }

@@ -45,14 +45,16 @@ body{
   text-align: left;
 }
 
-.column1of3, .column2of3, .column3of3 {
-  display:inline;
-  margin: 10px;
-  width: 30%;
-  padding: auto;
-  text-align: left;
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 90%;
 }
 
+.flex-item {
+    width: 30%;
+    margin: 10px;
+}
 
 #footer {
     color: black;
