@@ -1,6 +1,13 @@
 body{
 }
 
+h1{
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-weight: normal;
+  font-size: 70px;
+}
+
 h1 {
   text-align: center;
 }
@@ -46,9 +53,8 @@ li{
 }
 
 #footer {
-  color: black;
-    font-family: 'Slabo 27px', serif;
+    color: black;
+    font-family: Georgia, "Times New Roman", serif;
     font-size: 0.8em;
     border-top: 1px solid black;
-
 }
