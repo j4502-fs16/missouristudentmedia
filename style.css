@@ -57,6 +57,12 @@ body{
     font-size: 35px;
 }
 
+#awards{
+  color: black;
+  background-color: #EEAC00;
+  text-align: left;
+}
+
 #footer {
     color: black;
     font-family: Georgia, "Times New Roman", serif;
