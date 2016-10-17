@@ -1,3 +1,7 @@
+p{
+  font-family: 'Roboto', serif;
+}
+
 body{
 
 }
@@ -65,6 +69,13 @@ li{
 
 #nav1 li {
   list-style-type: none;
+  display: block;
+  margin: 0 auto;
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
 }
 
 #footer {
