@@ -1,17 +1,39 @@
-p{
-  font-family: 'Roboto', serif;
+body{
+  text-align:center;
+  background-color:white;
+  padding:10px;
+}
+
+.wrapper{
+  width:100%;
+}
+
+.navigation{
+  list-style:none;
+  padding-bottom:55px;
+  display:flex;
+  flex-direction:row;
+}
+
+.navigation img{
+  display:block;
+  padding:10px;
+  text-align:center;
+  width: 90%;
+}
+
+@media all and (min-width:600){
+  .navigation{
+    flex-direction:row;
+    justify-content:space-around;
+  }
 }
 
 h1{
   text-align: center;
   font-family: 'Rubik', sans-serif;
+  width:100%;
   font-weight: normal;
-  font-size: 70px;
-}
-
-p{
-  font-family: 'Open Sans', sans-serif;
-  text-align: left;
 }
 
 h2{
@@ -19,65 +41,72 @@ h2{
   font-weight: normal;
 }
 
-body{
-  text-align: center;
-  padding-left: 50px;
-  padding-right: 50px;
+p{
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
 }
 
-#container{
-    width: 90%;
-    background-color: #ffffff;
-    margin: 0 auto;
-    padding-bottom:55px;
-  }
-
-#nav{
-  padding: 0;
+.aboutheader {
+  color: black;
+  background-color: #EEAC00;
+  text-align: left;
+  width:100%;
 }
 
-#nav li{
-  display: inline;
+.aboutparagraph{
+  font-family: 'Open Sans', sans-serif;
+  text-align:left;
+  font-size: 1.1em;
 }
 
-#nav li{
-  list-style-type: none;
-  margin: auto;
-  padding: 0;
-  width: 30%;
-}
-
-#about {
+.collabheader {
   color: black;
   background-color: #EEAC00;
   text-align: left;
 }
 
-#collab {
-  color: black;
-  background-color: #EEAC00;
-  text-align: left;
-}
-
-.flex-container {
-    display: -webkit-flex;
+.collabworks{
     display: flex;
+    flex-flow:row wrap;
     width: 100%;
+    padding:10px;
+    font-family: 'Open Sans', sans-serif;
+    text-align:left;
+    font-size: 1.1em;
 }
 
-.flex-item {
-    width: 30%;
-    margin: 10px;
-    font-size: 35px;
+.collabworks, .aside {
+    flex:3 100%;
 }
 
-#awards{
+.aside img{
+  border-style:none;
+  width:90%;
+  margin:10px;
+}
+
+.awardsheader{
   color: black;
   background-color: #9A9A9A;
   text-align: left;
 }
 
-#footer {
+@media all and (min-width:600px){
+  .aboutparagraph{
+    max-width: 1000px;
+  }
+
+  .collabworks{
+    flex-flow:row;
+  }
+
+  h1{
+    font-size: 50px;
+  }
+
+}
+
+footer {
     color: black;
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
