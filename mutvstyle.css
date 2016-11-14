@@ -66,7 +66,7 @@ li{
 
 #nav li {
   list-style-type: none;
-  font-size: 30px;
+  font-size: 20px;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   text-align: left;
@@ -123,4 +123,29 @@ li{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 0.8em;
   border-top: 1px solid black;
+}
+
+
+@media (max-width:500px){
+  .video{
+    width: 40%;
+    height: 40%;
+    text-align: center;
+}
+  .container{
+    display: none;
+  }
+
+  .logo{
+    width: 200%;
+    height: 200%;
+  }
+}
+
+@media (min-width:500px){
+  .menu-trigger {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+  }
 }
