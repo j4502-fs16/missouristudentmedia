@@ -132,8 +132,10 @@ li{
     height: 40%;
     text-align: center;
 }
-  .container{
-    display: none;
+
+  #nav {
+      display: flex;
+      flex-direction: column;
   }
 
   .logo{
