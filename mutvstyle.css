@@ -133,7 +133,7 @@ li{
     text-align: center;
 }
 
-  #nav {
+  nav ul {
       display: flex;
       flex-direction: column;
   }
