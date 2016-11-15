@@ -1,17 +1,42 @@
 body{
 }
 
-h1 {
+h1{
   text-align: center;
+  font-family: 'Rubik', sans-serif;
+  width:100%;
+  font-weight: normal;
+  font-size: 30px
 }
 
-#nav1 {
-  color: black;
+h2{
+  font-family: 'Rubik', sans-serif;
+  font-weight: normal;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+}
+
+#JOIN{
   background-color: #EEAC00;
 }
 
+#STREAM{
+  background-color: #EEAC00;
+}
+
+#SHOWSCHEDULE{
+  background-color: #EEAC00;
+}
+
+
 li{
   display: inline;
+  font-family: 'Rubik', sans-serif;
+  font-weight: normal;
 }
 
 #nav li {
@@ -21,6 +46,8 @@ li{
   padding: 0;
   width: 0;
 }
+
+
 
 #container{
     margin: 10px  auto  10px  auto;
