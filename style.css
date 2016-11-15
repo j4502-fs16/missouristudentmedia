@@ -5,6 +5,9 @@ h1{
   font-size: 100px;
 }
 
+h2{
+  box-shadow: 10px 10px 5px #888888;
+}
 
 body{
   text-align: center;
@@ -38,14 +41,12 @@ body{
   color: black;
   background-color: #EEAC00;
   text-align: left;
-  box-shadow: 10px 10px 5px #888888;
 }
 
 #collab {
   color: black;
   background-color: #EEAC00;
   text-align: left;
-  box-shadow: 10px 10px 5px #888888;
 }
 
 #container2{
