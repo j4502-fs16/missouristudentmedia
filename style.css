@@ -170,6 +170,19 @@ p{
     margin: 0 auto;
   }
 
+
+  #MUTV:hover{
+    content: url('photos/MUTV COLOR.png');
+  }
+
+  #KCOU:hover{
+    content: url('photos/KCOU COLOR.png');
+  }
+
+  #Maneater:hover{
+    content: url('photos/Maneater COLOR.png');
+  }
+
   .mobile-nav{
     display:none;
   }
