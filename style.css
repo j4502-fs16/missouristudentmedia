@@ -110,6 +110,7 @@ p{
     display:none;
   }
 
+
   .mobile-logo{
     display: flex;
     max-width: 750px;
@@ -117,38 +118,36 @@ p{
     margin: 0 auto;
   }
 
-  .mobile-logo {
+  .mobile-logo li{
     list-style:none;
     padding-bottom:55px;
     display:flex;
     flex-direction:row;
     justify-content: center;
+    padding: 10px;
   }
 
   .mobile-logo img{
     display:block;
-    width: 90%;
+    width: 100%;
     justify-content: center;
     align-content: center;
   }
 
   .mobile-nav{
-    display: flex;
+    display:block;
     max-width: 750px;
-    align-items: center;
     margin: 0 auto;
+    list-style:none;
+    padding-top:20px;
   }
 
-  .mobile-nav {
-    list-style:none;
-    padding-bottom:55px;
+  .mobile-nav{
     display:flex;
-    flex-direction:row;
-    justify-content: center;
+    flex-flow: row;
   }
 
   .mobile-nav img{
-    display:block;
     width: 90%;
     justify-content: center;
     align-content: center;
@@ -157,8 +156,10 @@ p{
   .menu-trigger {
       color: black;
       width: 1%;
+      text-decoration: none;
   }
 }
+
 
 @media all and (min-width:800px){
 
