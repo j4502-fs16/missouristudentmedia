@@ -191,7 +191,9 @@ nav a:link, a:visited {
   font-size: 2em;
 }
 
-
+.jointoday{
+  align-items: center;
+}
 
 
 @media (max-width:500px){
