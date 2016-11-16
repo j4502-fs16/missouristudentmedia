@@ -17,15 +17,20 @@ h2{
   background-color: #EEAC00;
 }
 
+.maneaterlogo2 {
+  width: 25%;
+  text-align: center;
+  padding-left: 350px;
+}
 
 nav li {
   list-style-type: none;
-  font-size: 30px;
+  font-size: 25px;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   text-align: center;
-  line-height: 250%;
-  margin: 3%;
+  line-height: 200%;
+  margin: 2%;
 }
 
 nav a:link, a:visited {
