@@ -55,7 +55,7 @@ li{
     width: 90%;
     text-align: left;
 }
-=======
+
 body{
   text-align: center;
   padding-left: 50px;
@@ -195,11 +195,11 @@ nav a:link, a:visited {
 
 
 @media (max-width:500px){
-/*  .video{
+.video{
     width: 40%;
     height: 40%;
     text-align: center;
-}*/
+}
 
 .menu-trigger{
   display: block;
@@ -207,6 +207,11 @@ nav a:link, a:visited {
 
 .navigation{
   display:none;
+}
+
+.jointoday{
+  width: 40%;
+  height: 40%;
 }
 
 
