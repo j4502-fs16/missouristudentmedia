@@ -50,11 +50,6 @@ li{
 
 
 
-#container{
-    margin: 10px  auto  10px  auto;
-    width: 90%;
-    text-align: left;
-}
 
 body{
   text-align: center;
@@ -140,20 +135,7 @@ nav a:link, a:visited {
   display:none;
 }
 
-#container{
-  margin: 5%;
-  display: block;
-  margin: 0 auto;
-  padding-left: 180px;
-  height: 150px;
-  padding-top: 50px;
-  padding-bottom: 100px;
-  width: 60%;
-}
 
-#center2 {
-    width: 100%;
-}
 
 #social_icons {
     margin: 10px auto;
@@ -162,14 +144,7 @@ nav a:link, a:visited {
     text-align: center;
 }
 
-#social_icons ul {
-    margin: 10px auto;
-    list-style: none;
-    text-align: center;
-}
-
 #social_icons li {
-
     margin-right: 20px;
 }
 
@@ -188,7 +163,7 @@ nav a:link, a:visited {
 
 .table{
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 
@@ -199,6 +174,11 @@ nav a:link, a:visited {
     text-align: center;
 }
 
+.table{
+  flex-direction: row;
+}
+
+
 .menu-trigger{
   display: block;
 }
@@ -207,23 +187,11 @@ nav a:link, a:visited {
   display:none;
 }
 
-<<<<<<< HEAD
-.jointoday{
-  width: 40%;
-  height: 40%;
-}
 
-
-=======
->>>>>>> origin/master
 .navigation ul {
       display: flex;
       flex-flow: column;
 }
-  .container{
-    display: flex;
-    flex-direction: column;
-  }
 
   .logo{
     width: 200%;
@@ -236,5 +204,10 @@ nav a:link, a:visited {
     text-decoration: none;
     color: white;
     font-size: 1.5em;
+  }
+
+
+  #social_icons {
+    text-align: center;
   }
 }
