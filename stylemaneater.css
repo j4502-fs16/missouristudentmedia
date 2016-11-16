@@ -9,6 +9,10 @@ li{
   font-weight: normal;
 }
 
+.menu-trigger{
+  display:none;
+}
+
 h2{
   font-family: 'Rubik', sans-serif;
   font-weight: normal;
@@ -20,7 +24,7 @@ h2{
 .maneaterlogo2 {
   width: 25%;
   text-align: center;
-  padding-left: 350px;
+  padding-left: 30%;
 }
 
 nav li {
@@ -54,4 +58,28 @@ nav a:link, a:visited {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 0.8em;
   border-top: 1px solid black;
+}
+
+
+@media (max-width:500px){
+
+
+.menu-trigger{
+  display: block;
+  text-align: right;
+}
+
+.navigation{
+  display:none;
+}
+
+.navigation li {
+      display: flex;
+      flex-flow: column;
+      text-decoration: none;
+      font-size: 10px;
+      text-align: right;
+}
+
+
 }
