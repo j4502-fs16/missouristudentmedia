@@ -190,6 +190,7 @@ span {
 
 .menu-trigger{
   display: block;
+  text-align: right;
 }
 
 .navigation{
@@ -201,23 +202,17 @@ span {
       flex-flow: column;
       text-decoration: none;
       font-size: 10px;
+      text-align: right;
 }
 
   .mutvlogo{
     width: 200%;
     height: 200%;
   }
+
+#social_icons {
+  text-align: left;;
+  margin-left: 25%;
 }
 
-@media (min-width:500px){
-  .menu-trigger {
-    text-decoration: none;
-    color: white;
-    font-size: 1.5em;
-  }
-
-
-  #social_icons {
-    text-align: center;
-  }
 }
