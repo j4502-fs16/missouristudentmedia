@@ -206,13 +206,14 @@ span {
   display:none;
 }
 
-
-.navigation ul {
+.navigation li {
       display: flex;
       flex-flow: column;
+      text-decoration: none;
+      font-size: 10px;
 }
 
-  .logo{
+  .mutvlogo{
     width: 200%;
     height: 200%;
   }
