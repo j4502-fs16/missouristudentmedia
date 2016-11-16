@@ -1,13 +1,52 @@
-body{
-  background-color:#33cdc7;
-  }
 
-#nav li {
+.navigation a:hover{
+  background: #9A9A9A;
+}
+
+li{
+  display: inline;
+  font-family: 'Rubik', sans-serif;
+  font-weight: normal;
+}
+
+h2{
+  font-family: 'Rubik', sans-serif;
+  font-weight: normal;
+  text-align: left;
+  box-shadow: 10px 10px 5px #888888;
+  background-color: #EEAC00;
+}
+
+
+nav li {
   list-style-type: none;
-  float:left;
-  margin: 0;
-  padding: 0;
-  width: 25%;
-  text-decoration: underline;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  line-height: 250%;
+  margin: 3%;
+}
 
+nav a:link, a:visited {
+  color:black;
+}
+
+#social_icons {
+    margin: 10px auto;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+}
+
+#social_icons li {
+    margin-right: 20px;
+}
+
+#footer {
+  color: black;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 0.8em;
+  border-top: 1px solid black;
 }
