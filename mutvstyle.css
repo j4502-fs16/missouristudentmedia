@@ -203,6 +203,18 @@ span {
 
 @media (max-width:500px){
 
+  .video {
+    width: 100%;
+    height: 100%;
+  }
+
+  .video iframe {
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+  }
+
+
 .menu-trigger{
   display: block;
   text-align: right;
@@ -221,8 +233,8 @@ span {
 }
 
   .mutvlogo{
-    width: 200%;
-    height: 200%;
+    width: 100%;
+    height: 100%;
   }
 
 #social_icons {
