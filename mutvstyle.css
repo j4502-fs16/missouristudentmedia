@@ -209,7 +209,6 @@ nav a:link, a:visited {
   display:none;
 }
 
-
 .navigation ul {
       display: flex;
       flex-flow: column;
