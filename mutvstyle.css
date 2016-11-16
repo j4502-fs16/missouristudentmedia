@@ -22,14 +22,18 @@ h1{
 
 .video iframe {
   position: absolute;
-  top:0;
-  left: 0;
+  top: 20px;
+  left: 30px;
   width: 90%;
   height: 90%;
 }
 
 .streamvote {
   text-align: center;
+}
+
+.navigation a:hover{
+  background: #9A9A9A;
 }
 
 .jointoday{
