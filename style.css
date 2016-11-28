@@ -110,7 +110,6 @@ p{
     display:none;
   }
 
-
   .mobile-logo{
     display: flex;
     max-width: 750px;
@@ -174,19 +173,16 @@ p{
   #MUTV:hover{
     content: url('photos/MUTV COLOR.png');
     padding: 10px;
-    box-shadow: 5px 5px 3px #888888;
   }
 
   #KCOU:hover{
     content: url('photos/KCOU COLOR.png');
     padding: 10px;
-    box-shadow: 5px 5px 3px #888888;
   }
 
   #Maneater:hover{
     content: url('photos/Maneater COLOR.png');
     padding: 10px;
-    box-shadow: 5px 5px 3px #888888;
   }
 
   .mobile-nav{
