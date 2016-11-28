@@ -139,9 +139,6 @@ p{
     margin: 0 auto;
     list-style:none;
     padding-top:20px;
-  }
-
-  .mobile-nav{
     display:flex;
     flex-flow: row;
   }
@@ -151,6 +148,7 @@ p{
     justify-content: center;
     align-content: center;
   }
+
 
   .menu-trigger {
       color: black;
