@@ -90,10 +90,6 @@ p{
   text-align: left;
 }
 
-.mobile-nav {
-  display:none;
-}
-
 .mobile-header {
   display: flex;
   flex-flow:row;
@@ -137,7 +133,6 @@ header{
 }
 
 .mobile-nav{
-  display:block;
   max-width: 750px;
   margin: 0 auto;
   list-style:none;
