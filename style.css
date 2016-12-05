@@ -227,3 +227,158 @@ footer {
 
 
 /*START OF MUTV STYLE*/
+
+.video {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+}
+/* 16x9 Aspect Ratio */
+.video {
+  padding-bottom: 56.25%;
+}
+
+.video iframe {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  width: 90%;
+  height: 90%;
+}
+
+.streamvote {
+  text-align: center;
+}
+
+.mutvnavigation a:hover{
+  background: #9A9A9A;
+}
+
+.jointoday{
+  text-align: center;
+}
+
+#JOIN{
+  background-color: #EEAC00;
+}
+
+#STREAM{
+  background-color: #EEAC00;
+}
+
+#SHOWSCHEDULE{
+  background-color: #EEAC00;
+}
+
+.mutvnavigation li{
+  display: inline;
+  font-family: 'Rubik', sans-serif;
+  font-weight: normal;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+}
+
+.mutvnav li {
+  list-style-type: none;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  line-height: 250%;
+  margin: 3%;
+}
+
+.mutvnav a:link, a:visited {
+  color:black;
+}
+
+.mutvmenu-trigger{
+  display:none;
+}
+
+#social_icons {
+    margin: 10px auto;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+}
+
+#social_icons li {
+    margin-right: 20px;
+}
+
+#footer {
+  color: black;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 0.8em;
+  border-top: 1px solid black;
+}
+
+.table{
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1em;
+}
+
+h4 {
+font-family: 'Rubik', sans-serif;
+font-weight: normal;
+text-decoration: none;
+font-size: 20px;
+text-decoration: none;
+}
+
+span {
+    font-size:35px;
+    font-weight:bold;
+    text-decoration: none;
+    color: #EEAC00;
+    }
+
+    @media (max-width:500px){
+
+      .video {
+        width: 100%;
+        height: 100%;
+      }
+
+      .video iframe {
+        padding: 5px;
+        width: 100%;
+        height: 100%;
+      }
+
+    .mutvmenu-trigger{
+      display: block;
+      text-align: right;
+    }
+
+    .mutvnavigation{
+      display:none;
+    }
+
+    .mutvnavigation li {
+          display: flex;
+          flex-flow: column;
+          text-decoration: none;
+          font-size: 10px;
+          text-align: right;
+    }
+
+      .mutvlogo{
+        width: 100%;
+        height: 100%;
+      }
+
+    #social_icons {
+      text-align: left;;
+      margin-left: 25%;
+    }
+
+    }
+/*START OF KCOU STYLE*/
