@@ -309,7 +309,14 @@ h3 {
 }
 
 #social_icons li {
-    margin-right: 20px;
+    list-style-type: none;
+    display: inline;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 250%;
+    margin: 3%;
 }
 
 #footer {
@@ -382,3 +389,54 @@ span {
 
     }
 /*START OF KCOU STYLE*/
+
+.kcounavigation a:hover{
+  background: #9A9A9A;
+}
+
+.kcounavigation li{
+  display: inline;
+  font-family: 'Rubik', sans-serif;
+  font-weight: normal;
+}
+
+.kcoumenu-trigger{
+  display:none;
+}
+
+.kcounav li {
+  list-style-type: none;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  line-height: 200%;
+  margin: 2%;
+}
+
+.kcounav a:link, a:visited {
+  color:black;
+}
+
+@media (max-width:500px){
+
+
+.kcoumenu-trigger{
+  display: block;
+  text-align: right;
+}
+
+.kcounavigation{
+  display:none;
+}
+
+.kcounavigation li {
+      display: flex;
+      flex-flow: column;
+      text-decoration: none;
+      font-size: 10px;
+      text-align: right;
+}
+
+
+}
