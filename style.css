@@ -50,11 +50,23 @@ p{
   width:100%;
 }
 
+.aboutcontent{
+  display:flex;
+  flex-flow:row;
+}
+
+.aboutphoto {
+  flex: 1;
+  max-width: 50%;
+}
+
 .aboutparagraph{
+  flex: 2;
   font-family: 'Open Sans', sans-serif;
   text-align:left;
   font-size: 1.1em;
 }
+
 
 .collabheader {
   color: black;
