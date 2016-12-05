@@ -1,15 +1,15 @@
 
-.navigation a:hover{
+.kcounavigation a:hover{
   background: #9A9A9A;
 }
 
-li{
+.kcounavigation li{
   display: inline;
   font-family: 'Rubik', sans-serif;
   font-weight: normal;
 }
 
-.menu-trigger{
+.kcoumenu-trigger{
   display:none;
 }
 
@@ -21,13 +21,13 @@ h2{
   background-color: #EEAC00;
 }
 
-.maneaterlogo2 {
-  width: 25%;
-  text-align: center;
-  padding-left: 30%;
+p{
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
 }
 
-nav li {
+
+.kcounav li {
   list-style-type: none;
   font-size: 25px;
   font-family: 'Open Sans', sans-serif;
@@ -37,7 +37,7 @@ nav li {
   margin: 2%;
 }
 
-nav a:link, a:visited {
+.kcounav a:link, a:visited {
   color:black;
 }
 
@@ -64,16 +64,16 @@ nav a:link, a:visited {
 @media (max-width:500px){
 
 
-.menu-trigger{
+.kcoumenu-trigger{
   display: block;
   text-align: right;
 }
 
-.navigation{
+.kcounavigation{
   display:none;
 }
 
-.navigation li {
+.kcounavigation li {
       display: flex;
       flex-flow: column;
       text-decoration: none;

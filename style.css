@@ -440,3 +440,59 @@ span {
 
 
 }
+
+/*START OF MANEATER STYLE*/
+
+.mannavigation a:hover{
+  background: #9A9A9A;
+}
+
+.mannavigation li{
+  display: inline;
+  font-family: 'Rubik', sans-serif;
+  font-weight: normal;
+}
+
+.manmenu-trigger{
+  display:none;
+}
+
+.maneaterlogo2 {
+  width: 25%;
+  text-align: center;
+  padding-left: 30%;
+}
+
+.mannav li {
+  list-style-type: none;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  line-height: 200%;
+  margin: 2%;
+}
+
+.mannav a:link, a:visited {
+  color:black;
+}
+
+.manmenu-trigger{
+  display: block;
+  text-align: right;
+}
+
+.mannavigation{
+  display:none;
+}
+
+.mannavigation li {
+      display: flex;
+      flex-flow: column;
+      text-decoration: none;
+      font-size: 10px;
+      text-align: right;
+}
+
+
+}
