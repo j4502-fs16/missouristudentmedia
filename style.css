@@ -377,9 +377,14 @@ span {
           text-align: right;
     }
 
-      .mutvlogo{
+      .mutvlogo
+
+      li{
         width: 100%;
         height: 100%;
+        float: left;
+        list-style-type: none;
+        text-align:left;
       }
 
     #social_icons {
@@ -443,6 +448,7 @@ span {
 
 /*START OF MANEATER STYLE*/
 
+
 .mannavigation a:hover{
   background: #9A9A9A;
 }
@@ -476,6 +482,27 @@ span {
 .mannav a:link, a:visited {
   color:black;
 }
+
+.manmenu-trigger{
+  display: block;
+  text-align: right;
+}
+
+.mannavigation{
+  display:none;
+}
+
+.mannavigation li {
+      display: flex;
+      flex-flow: column;
+      text-decoration: none;
+      font-size: 10px;
+      text-align: right;
+}
+
+}
+@media (max-width:500px){
+
 
 .manmenu-trigger{
   display: block;
