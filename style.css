@@ -57,12 +57,12 @@ p{
 
 .aboutphoto {
   flex: 1;
-  max-width: 100%;
+  max-width: 300%;
   height: 50%;
 }
 
 .aboutparagraph{
-  flex: 1;
+  flex: 2;
   text-align:left;
   font-size: 1.1em;
 }
