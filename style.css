@@ -51,14 +51,16 @@ p{
 }
 
 .aboutcontent{
-  display:flex;
-  flex-flow:row;
+  display: table;
+      width: 100%;
+      max-width: 1280px;
+      height: 445px;
+      margin: 0 auto;
 }
 
 .aboutphoto {
   flex: 1;
-  max-width: 300%;
-  height: 50%;
+  max-width: 100%;
 }
 
 .aboutparagraph{
