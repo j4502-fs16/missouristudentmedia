@@ -53,10 +53,9 @@ p{
 .aboutcontent{
   display: table;
       width: 200%;
-      max-width: 1580px;
-      height: 200px;
+      max-width: 1280px;
+      height: 100px;
       margin: 0 auto;
-      padding: -10%;
 }
 
 .aboutphoto {
