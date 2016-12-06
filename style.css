@@ -26,20 +26,20 @@ body{
 
 h1{
   text-align: center;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   width:100%;
   font-weight: normal;
   font-size: 30px
 }
 
 h2{
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-weight: normal;
     box-shadow: 5px 5px 3px #888888;
 }
 
 p{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lora', serif;
   text-align: left;
 }
 
@@ -62,7 +62,6 @@ p{
 
 .aboutparagraph{
   flex: 2;
-  font-family: 'Open Sans', sans-serif;
   text-align:left;
   font-size: 1.1em;
 }
@@ -81,7 +80,7 @@ p{
     max-width: 550px;
     margin: 0 auto;
     padding:10px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lora', serif;
     text-align:left;
     font-size: 1.1em;
 }
@@ -228,6 +227,58 @@ footer {
 
 /*START OF MUTV STYLE*/
 
+.mutvnavigation li{
+  display: inline;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+}
+
+.mutvnav li {
+  list-style-type: none;
+  font-size: 30px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal;
+  text-align: center;
+  line-height: 250%;
+  margin: 3%;
+}
+
+.mutvnav a:link, a:visited {
+  color:black;
+}
+
+.mutvmenu-trigger{
+  display:none;
+}
+
+.mutvlogo li{
+  list-style-type:none;
+  display: flex;
+  flex-flow: column;
+  width: 90%;
+  max-width: 200px;
+  padding: 10px 0px;
+}
+
+.mutvnologo {
+  display: flex;
+  flex-flow: column;
+  width: 80%;
+  max-width: 750px;
+}
+
+.mutvheader{
+  display: flex;
+  flex-flow: row;
+}
+
 .video {
   position: relative;
   height: 0;
@@ -270,36 +321,7 @@ footer {
   background-color: #EEAC00;
 }
 
-.mutvnavigation li{
-  display: inline;
-  font-family: 'Rubik', sans-serif;
-  font-weight: normal;
-}
 
-h3 {
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: normal;
-  font-size: 30px;
-}
-
-.mutvnav li {
-  list-style-type: none;
-  font-size: 30px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
-  text-align: center;
-  line-height: 250%;
-  margin: 3%;
-}
-
-.mutvnav a:link, a:visited {
-  color:black;
-}
-
-.mutvmenu-trigger{
-  display:none;
-}
 
 #social_icons {
     margin: 10px auto;
@@ -312,7 +334,7 @@ h3 {
     list-style-type: none;
     display: inline;
     font-size: 30px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lora', serif;
     font-weight: bold;
     text-align: center;
     line-height: 250%;
@@ -333,7 +355,7 @@ h3 {
 }
 
 h4 {
-font-family: 'Rubik', sans-serif;
+font-family: 'Quicksand', sans-serif;
 font-weight: normal;
 text-decoration: none;
 font-size: 20px;
@@ -347,6 +369,10 @@ span {
     color: #EEAC00;
     }
 
+.mutvmainlogo{
+  display:none;
+}
+
     @media (max-width:500px){
 
       .video {
@@ -355,7 +381,8 @@ span {
       }
 
       .video iframe {
-        padding: 5px;
+        padding: 0;
+
         width: 100%;
         height: 100%;
       }
@@ -373,19 +400,22 @@ span {
           display: flex;
           flex-flow: column;
           text-decoration: none;
-          font-size: 10px;
+          font-size: 15px;
           text-align: right;
     }
 
-      .mutvlogo
+    .mutvnologo{
+      width: 100%;
+    }
 
-      li{
-        width: 100%;
-        height: 100%;
-        float: left;
-        list-style-type: none;
-        text-align:left;
-      }
+    .mutvmainlogo{
+      display:inline;
+      max-width: 100px;
+    }
+
+    .mutvlogo{
+      display:none;
+    }
 
     #social_icons {
       text-align: left;;
@@ -401,7 +431,7 @@ span {
 
 .kcounavigation li{
   display: inline;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-weight: normal;
 }
 
@@ -412,8 +442,8 @@ span {
 .kcounav li {
   list-style-type: none;
   font-size: 25px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal;
   text-align: center;
   line-height: 200%;
   margin: 2%;
@@ -455,7 +485,7 @@ span {
 
 .mannavigation li{
   display: inline;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-weight: normal;
 }
 
@@ -472,8 +502,8 @@ span {
 .mannav li {
   list-style-type: none;
   font-size: 25px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal;
   text-align: center;
   line-height: 200%;
   margin: 2%;
