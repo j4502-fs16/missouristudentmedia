@@ -57,7 +57,8 @@ p{
 
 .aboutphoto {
   flex: 1;
-  max-width: 50%;
+  max-width: 100%;
+  height: 50%;
 }
 
 .aboutparagraph{
