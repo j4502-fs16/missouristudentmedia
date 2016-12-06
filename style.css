@@ -45,7 +45,6 @@ p{
 
 .aboutheader {
   color: black;
-  background-color: #EEAC00;
   text-align: left;
   width:100%;
 }
@@ -58,15 +57,14 @@ p{
 }
 
 .aboutphoto {
-  flex: 1;
   max-width: 100%;
   height: 10%;
 }
 
 .aboutparagraph{
-  flex: 2;
   text-align:left;
   font-size: 1.1em;
+  color: white;
 }
 
 
