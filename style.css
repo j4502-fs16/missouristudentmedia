@@ -52,11 +52,11 @@ p{
 
 .aboutcontent{
   display: table;
-      width: 100%;
+      width: 200%;
       max-width: 1580px;
       height: 200px;
       margin: 0 auto;
-      padding: -15px;
+      padding: -10%;
 }
 
 .aboutphoto {
