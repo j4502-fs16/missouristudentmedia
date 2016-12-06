@@ -49,14 +49,6 @@ p{
   width:100%;
 }
 
-
-.contain{
-   background-image:url(yourimage.jpg);
-   background-position:center;
-   width:700px;
-   height:400px;
-}
-
 .aboutcontent{
   display: table;
       width: 100%;
