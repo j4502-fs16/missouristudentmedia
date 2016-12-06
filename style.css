@@ -62,7 +62,7 @@ p{
 }
 
 .aboutparagraph{
-  flex: 2;
+  flex: 1;
   text-align:left;
   font-size: 1.1em;
 }
