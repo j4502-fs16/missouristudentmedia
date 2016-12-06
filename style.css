@@ -57,8 +57,14 @@ p{
 }
 
 .aboutphoto {
+  background-image: "micphoto.jpg"
   max-width: 50%;
   height: 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 0;
+  position: relative;
+  margin: 0 0 50px 0;
 }
 
 .aboutparagraph{
