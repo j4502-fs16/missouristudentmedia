@@ -69,6 +69,12 @@ p{
   background-size: cover;
 }
 
+.aside img{
+  border-style:none;
+  background-size: cover;
+  display: table;
+}
+
 .aboutparagraph{
   text-align:left;
   font-size: 1.1em;
@@ -98,11 +104,6 @@ p{
     flex:3 100%;
 }
 
-.aside img{
-  border-style:none;
-  width:90%;
-  margin:10px;
-}
 
 .awardsheader{
   color: black;
