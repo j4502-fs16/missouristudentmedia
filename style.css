@@ -43,6 +43,12 @@ p{
   text-align: left;
 }
 
+.aboutheader {
+  color: black;
+  text-align: left;
+  width:100%;
+}
+
 .about{
   display: table;
   width: 100%;
@@ -51,17 +57,12 @@ p{
   margin: 0 auto;
 }
 
-.aboutheader {
-  color: black;
-  text-align: left;
-  width:100%;
-}
-
 .aboutcontent{
   display: table;
       width: 100%;
       height: 10%;
       margin: 0 auto;
+
 }
 
 .aboutphoto {
@@ -76,13 +77,6 @@ p{
   width: 100%;
   height: 10%;
   margin: 0;
-}
-
-.aboutparagraph{
-  font-size: 1.0em;
-  text-align: left;
-  vertical-align: middle;
-  float: top right;
 }
 
 
