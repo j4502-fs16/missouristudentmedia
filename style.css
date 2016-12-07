@@ -78,6 +78,15 @@ p{
   margin: 0;
 }
 
+.aside aboutparagraph{
+  display: table;
+    width: 100%;
+    max-width: 1280px;
+    height: 445px;
+    margin: 0 auto;
+    color: #fff;
+}
+
 .aboutparagraph{
   text-align:left;
   font-size: 1.1em;
