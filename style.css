@@ -61,6 +61,7 @@ p{
 .aboutheader {
   color: white;
   text-align: left;
+  font-weight: bold;
   width:100%;
   font-size: 14px;
 }
@@ -75,7 +76,7 @@ p{
 .aboutparagraph{
   font-size: 1.1em;
   font-family: 'Quicksand', sans-serif;
-  color: white;
+  color: #EEAC00;
   text-align: left;
   padding-top: 20px;
   vertical-align: center;
