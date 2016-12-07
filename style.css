@@ -43,6 +43,14 @@ p{
   text-align: left;
 }
 
+.about{
+  display: table;
+  width: 100%;
+  max-width: 1280px;
+  height: 445px;
+  margin: 0 auto;
+}
+
 .aboutheader {
   color: black;
   text-align: left;
@@ -57,11 +65,14 @@ p{
 }
 
 .aboutphoto {
-  display: table;
-  width: 100%;
-  max-width: 1280px;
-  height: 445px;
-  margin: 0;
+  background-image: "micphoto.jpg"
+  max-width: 50%;
+  height: 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+  margin: 0 0 50px 0;
 }
 
 .aboutparagraph{
