@@ -59,11 +59,10 @@ p{
 }
 
 .aboutheader {
-  color: white;
   text-align: left;
-  font-weight: bold;
   width:100%;
   font-size: 14px;
+  color: #EEAC00;
 }
 
 .aboutcontent{
@@ -76,8 +75,7 @@ p{
 .aboutparagraph{
   font-size: 1.1em;
   font-family: 'Quicksand', sans-serif;
-  color: #EEAC00;
-  font-weight: 550;
+  color: white;
   text-align: left;
   padding-top: 20px;
   vertical-align: center;
