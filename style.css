@@ -1,7 +1,7 @@
 body{
   text-align:center;
   background-color:white;
-  padding:10px;
+  padding:0;
 }
 
 .wrapper{
@@ -35,7 +35,7 @@ h1{
 h2{
   font-family: 'Quicksand', sans-serif;
   font-weight: normal;
-    box-shadow: 5px 5px 3px #888888;
+  text-align: center;
 }
 
 p{
@@ -43,24 +43,44 @@ p{
   text-align: left;
 }
 
+<<<<<<< HEAD
 .aboutheader {
   color: black;
   text-align: left;
   width:100%;
+=======
+.mainbody{
+  padding-top: 20px;
+>>>>>>> origin/master
 }
 
 .about{
+  background-image: url("photos/micphotoedited.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   display: table;
   width: 100%;
+  height: 450px;
   max-width: 1280px;
-  height: 445px;
   margin: 0 auto;
 }
 
+<<<<<<< HEAD
+=======
+.aboutheader {
+  color: white;
+  text-align: left;
+  font-weight: bold;
+  width:100%;
+  font-size: 14px;
+}
+
+>>>>>>> origin/master
 .aboutcontent{
   display: table;
       width: 100%;
       height: 10%;
+<<<<<<< HEAD
       margin: 0 auto;
 
 }
@@ -79,6 +99,21 @@ p{
   margin: 0;
 }
 
+=======
+      margin: 20px;
+}
+
+.aboutparagraph{
+  font-size: 1.1em;
+  font-family: 'Quicksand', sans-serif;
+  color: #EEAC00;
+  text-align: left;
+  padding-top: 20px;
+  vertical-align: center;
+  width: 90%;
+}
+
+>>>>>>> origin/master
 
 .collabheader {
   color: black;
@@ -102,10 +137,14 @@ p{
     flex:3 100%;
 }
 
+.awards{
+    background-color: #9A9A9A;
+    max-width: 1075px;
+    margin: auto;
+}
 
 .awardsheader{
   color: black;
-  background-color: #9A9A9A;
   text-align: left;
 }
 
@@ -207,11 +246,17 @@ header{
     display: none;
 }
 
+  .aboutheader{
+    font-size: 23px;
+}
+
   .aboutparagraph{
+    width: 60%;
     max-width: 900px;
     align-content: center;
     justify-content: center;
     margin: 0 auto;
+    font-size: 1.3em;
   }
 
   .collabworks{
