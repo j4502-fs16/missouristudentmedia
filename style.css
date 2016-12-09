@@ -267,6 +267,7 @@ header{
     display:flex;
     flex-flow:row;
     width: 100%;
+  }
 
   h1{
     font-size: 45px;
@@ -429,7 +430,7 @@ span {
   display:none;
 }
 
-@media screen and (max-width:500px){
+@media all and (max-width:500px){
 
       .video {
         width: 100%;
