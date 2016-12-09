@@ -430,7 +430,7 @@ span {
   display:none;
 }
 
-@media all and (max-width:500px){
+@media all and (max-width:800px){
 
       .video {
         width: 100%;
@@ -531,7 +531,7 @@ span {
   display:none;
 }
 
-@media all and (max-width:500px){
+@media all and (max-width:800px){
 
 
       .kcoumenu-trigger{
@@ -618,7 +618,7 @@ span {
   display:none;
 }
 
-@media all and (max-width:500px){
+@media all and (max-width:800px){
 
 
       .manmenu-trigger{
