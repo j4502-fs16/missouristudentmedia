@@ -429,7 +429,7 @@ span {
   display:none;
 }
 
-@media all and (max-width:500px){
+@media screen and (max-width:500px){
 
       .video {
         width: 100%;
