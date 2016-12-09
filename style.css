@@ -122,7 +122,13 @@ iframe{
 
 .awardsheader{
   color: black;
-  text-align: left;
+}
+
+.listawards{
+  display:flex;
+  flex-flow:row wrap;
+  width: 100%;
+  padding: 10px;
 }
 
 .mobile-header {
@@ -256,6 +262,11 @@ header{
     border-right: dashed;
     border-width: 2px;
   }
+
+  .listawards{
+    display:flex;
+    flex-flow:row;
+    width: 100%;
 
   h1{
     font-size: 45px;
