@@ -195,6 +195,18 @@ header{
 }
 
 
+#SOCIAL{
+  list-style: none;
+  display: inline;
+  vertical-align:bottom;
+  float: center;
+  padding: 20px;
+  padding-top: 10px;
+  width: 50%;
+
+}
+
+
 @media all and (min-width:800px){
 
   .navigation {
