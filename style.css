@@ -447,6 +447,7 @@ span {
     .mutvmenu-trigger{
       display: block;
       text-align: right;
+      text-decoration: none;
     }
 
     .mutvnavigation{
@@ -537,6 +538,7 @@ span {
       .kcoumenu-trigger{
         display: block;
         text-align: right;
+        text-decoration: none;
       }
 
       .kcounavigation{
@@ -624,6 +626,7 @@ span {
       .manmenu-trigger{
         display: block;
         text-align: right;
+        text-decoration: none;
       }
 
       .mannavigation{
