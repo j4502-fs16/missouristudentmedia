@@ -204,6 +204,15 @@ header{
     margin: 0 auto;
   }
 
+  #MUTV{
+    -webkit-backface-visibility: hidden;
+  }
+  #KCOU{
+    -webkit-backface-visibility: hidden;
+  }
+  #Maneater{
+    -webkit-backface-visibility: hidden;
+  }
 
   #MUTV:hover{
     content: url('photos/MUTV COLOR.png');
@@ -216,6 +225,8 @@ header{
   #Maneater:hover{
     content: url('photos/Maneater COLOR.png');
   }
+
+
 
   .mobile-nav{
     display:none;
@@ -329,6 +340,7 @@ h3 {
 .mutvnologo {
   display: flex;
   flex-flow: column;
+  padding-right: 20px;
   width: 80%;
   max-width: 750px;
 }
