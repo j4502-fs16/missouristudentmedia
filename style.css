@@ -204,16 +204,6 @@ header{
     margin: 0 auto;
   }
 
-  #MUTV{
-    -webkit-backface-visibility: hidden;
-  }
-  #KCOU{
-    -webkit-backface-visibility: hidden;
-  }
-  #Maneater{
-    -webkit-backface-visibility: hidden;
-  }
-
   #MUTV:hover{
     content: url('photos/MUTV COLOR.png');
   }
@@ -225,8 +215,6 @@ header{
   #Maneater:hover{
     content: url('photos/Maneater COLOR.png');
   }
-
-
 
   .mobile-nav{
     display:none;
