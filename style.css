@@ -767,8 +767,12 @@ span {
   display:none;
 }
 
-
-
+span {
+    font-size:35px;
+    font-weight:bold;
+    text-decoration: none;
+    color: #1e9f00;
+    }
 
 #social_icons {
     margin: 30px auto;
