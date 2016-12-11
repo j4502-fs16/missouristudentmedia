@@ -1138,6 +1138,7 @@ span2 {
       }
 
       .maneaterreadnowicon img{
+padding-top: 200px;
         text-align: center;
         width:70%;
       }
@@ -1155,7 +1156,14 @@ span2 {
       display:flex;
       flex-direction: column;
       justify-content: space-around;
-      padding-right: 1000px;
+      justify-content: flex-start;
     }
+
+    .readnow iframe{
+      height:100%;
+      margin:10px;
+      padding-right: 1px;
+   }
+
 
 }
