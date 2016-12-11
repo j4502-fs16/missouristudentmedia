@@ -477,6 +477,11 @@ width:100%;
 padding-bottom: 40px;
 }
 
+.streamvote h3{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 .voteblock{
 background-color: #e7c07c;
 width:100%;
@@ -484,6 +489,11 @@ text-align: center;
 font-family: 'Quicksand', sans-serif;
 font-weight: normal;
 font-size: 1em;
+}
+
+.voteblock h5{
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 
@@ -737,6 +747,11 @@ h6{
   display:none;
 }
 
+.streamvote h3{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 .streamvote img{
 width:30%;
 height: auto;
@@ -753,6 +768,11 @@ height: auto;
 .joinkcoublock{
   background-color: #5f788f;
   width: 100%;
+}
+
+.joinkcoublock h3{
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .streamkcoublock{
