@@ -40,7 +40,7 @@ h2{
 }
 
 p{
-  font-family: 'Lora', serif;
+  font-family: 'Quicksand', sans-serif;
   text-align: left;
 }
 
@@ -90,10 +90,14 @@ p{
   align-content: center;
 }
 
+.turnyellow{
+  background-color: #e7c07c
+}
+
 
 .collabheader {
   color: black;
-  background-color: #e7c07c;
+  padding: 0px 30px;
 }
 
 iframe{
@@ -103,20 +107,22 @@ iframe{
 }
 
 
-.collabworks, .aside {
-    flex:2 100%;
-    padding: 10px;
-    border: none;
-}
-
 .collabworks{
     display: flex;
     flex-flow:row wrap;
-    font-family: 'Lora', serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 1.1em;
-    padding-bottom: 40px;
-    background-color: #e7c07c;
 }
+
+.collabparagraphs{
+  display:none;
+}
+
+  .collabworks, .collabparagraphs, .aside {
+      flex:3 100%;
+      padding: 10px;
+      border: none;
+  }
 
 .awards{
     background-color: #9A9A9A;
@@ -125,18 +131,19 @@ iframe{
 
 .awardsheader{
   color: black;
-  padding-top: 20px;
 }
 
 .awardsheader p{
   text-align:center;
-  padding: 0px 50px;
+  font-family: 'Quicksand', sans-serif;
+  padding: 0px 30px;
 }
 
 .listawards{
   display:flex;
   flex-flow:row wrap;
   width: 100%;
+  font-family: 'Quicksand', sans-serif;
 
 }
 
@@ -269,10 +276,27 @@ padding-bottom: 20px;
     height:100%;
   }
 
+  .collabheader{
+    padding: 0px 200px;
+  }
+
   .collabworks{
     flex-flow:row;
     height: auto;
     justify-content: center;
+  }
+
+  .collabparagraphs{
+      display: flex;
+      flex-flow:row;
+      font-family: 'Quicksand', sans-serif;
+      font-size: 1.1em;
+      padding-bottom: 10px;
+      background-color: #e7c07c;
+    }
+
+  .collabworks p{
+    display:none;
   }
 
   .video1, .video2, .video3{
@@ -288,6 +312,10 @@ padding-bottom: 20px;
   {
     border-right: dashed;
     border-width: 2px;
+  }
+
+  .awardsheader p{
+    padding: 0px 200px;
   }
 
   .listawards{
@@ -839,6 +867,7 @@ h7{
       height: auto;
     }
 
+
     .kcouaboutparagraph{
       padding-left: 10px;
       padding-right:10px;
@@ -962,10 +991,10 @@ h7{
 }
 
 .readnow{
-    width: 900px;
+    width: 850px;
     height: 300px;
     column-count: 3;
-    padding-left: 120px;
+    padding-left: 70px;
 }
 
 .manheader{
@@ -983,7 +1012,20 @@ h7{
   font-size: 1em;
   padding-left: 100px;
   padding-right: 100px;
+}
 
+
+.maneaterfilmstrip img {
+
+  width: 35%;
+  height: auto;
+}
+
+.maneaterfilmstrip2 img{
+
+  width: 35%;
+  height: auto;
+  padding-bottom: 20px;
 }
 
 .maneatercontactinformation a:link {
@@ -1002,10 +1044,15 @@ h7{
   font-family: 'Quicksand', sans-serif;
   font-weight: normal;
   font-size: 1em;
+  padding-bottom: 10px;
 }
 
 .maneaterreadheader {
+  margin-top: 20px;
   text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal;
+  font-size: 1em;
 }
 
 span2 {
