@@ -576,6 +576,24 @@ span {
   display:none;
 }
 
+#social_icons {
+    margin: 30px auto;
+    width: 370px;
+    height: 30px;
+    text-align: center;
+}
+
+#social_icons li {
+    list-style-type: none;
+    display: inline;
+    font-size: 20px;
+    text-align: center;
+    line-height: 250%;
+    margin: 20px;
+    padding-left: 1px;
+    padding-right: 11px;
+}
+
 @media all and (max-width:800px){
 
 
