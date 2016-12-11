@@ -793,6 +793,15 @@ h5{
   margin: 7%;
 }
 
+.maneaterjoinblock{
+  background-color: #e7c07c;
+  width:100%;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal;
+  font-size: 1em;
+}
+
 .manheader{
   display: flex;
   flex-flow: row;
