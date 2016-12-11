@@ -852,6 +852,14 @@ h6{
   text-align: center;
 }
 
+.readnow{
+    -webkit-column-count: 3;
+    width: 1000px;
+    height: 300px;
+    column-count: 3;
+    padding-left: 120px;
+}
+
 .manheader{
   display: flex;
   flex-flow: row;
