@@ -688,7 +688,6 @@ span {
   margin: 7%;
 }
 
-
 .manheader{
   display: flex;
   flex-flow: row;
@@ -696,6 +695,13 @@ span {
 
 .manmainlogo{
   display:none;
+}
+
+.papers {
+  -webkit-column-count: 3;
+  -webkit-column-gap: 10px;
+  -webkit-column-rule-style: solid;
+  column-count: 3;
 }
 
 @media all and (max-width:800px){
