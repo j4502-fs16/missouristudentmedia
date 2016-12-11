@@ -904,8 +904,15 @@ padding-bottom:20px;
 }
 
 .maneaterjointoday{
+  padding-left: 250px;
   width: 60%;
+  height: auto;
   text-align: center;
+}
+
+.maneatercontactinformation{
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 .readnow{
@@ -923,6 +930,24 @@ padding-bottom:20px;
 
 .manmainlogo{
   display:none;
+}
+
+.maneaterjointodaycontent{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal;
+  font-size: 1em;
+  padding-left: 100px;
+  padding-right: 100px;
+
+}
+
+.maneatercontactinformation a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.maneatercontactinformation a:hover {
+    text-decoration: underline;
 }
 
 span2 {
