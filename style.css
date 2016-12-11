@@ -985,10 +985,9 @@ h7{
 }
 
 .maneaterjointoday{
-  padding-left: 250px;
-  width: 60%;
-  height: auto;
-  text-align: center;
+align-content: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 .maneatercontactinformation{
@@ -1118,13 +1117,45 @@ span2 {
         width: 100%;
       }
 
-      .manmainlogo{
-        display:inline;
-        max-width: 100px;
+      .maneaterfilmstrip img {
+        padding-top: 30px;
+        width:48%;
+        height: auto;
+
       }
 
-      .manlogo{
-        display:none;
+      .maneaterfilmstrip2 img{
+        width:48%;
+        height: auto;
       }
+
+      .maneaterreadnowicon{
+      align-content: center;
+      height:90%;
+      width:auto;
+      margin-left:auto;
+      margin-right:auto
+      }
+
+      .maneaterreadnowicon img{
+        text-align: center;
+        width:70%;
+      }
+
+      .maneaterjointoday{
+        align-content: center;
+      }
+
+      .maneaterjointoday img{
+        text-align: center;
+        width:60%;
+      }
+
+    .readnow{
+      display:flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding-right: 1000px;
+    }
 
 }
