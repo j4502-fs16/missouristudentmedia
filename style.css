@@ -634,14 +634,6 @@ h6{
     .mutvnologo{
       width: 100%;
     }
-
-    .mutvmainlogo{
-      display:inline;
-      max-width: 100px;
-    }
-
-    .mutvlogo{
-      display:none;
     }
 
   h6, h5, h3{
