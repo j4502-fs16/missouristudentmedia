@@ -382,21 +382,17 @@ h3 {
   padding-bottom: 20px;
 }
 
-.video {
-  position: relative;
-  height: 0;
-  overflow: hidden;
-}
-/* 16x9 Aspect Ratio */
-.video {
-  padding-bottom: 56.25%;
+.mutvfilmstrip {
+  position: center;
+  top: 50px;
+  width: 190%;
+  height: 90%;
 }
 
-.video iframe {
-  position: absolute;
-  top: 20px;
-  left: 30px;
-  width: 90%;
+.mutvfilmstrip2{
+  position: center;
+  top: 50px;
+  width: 190%;
   height: 90%;
 }
 
@@ -592,6 +588,20 @@ span1 {
   width: 80%;
   max-width: 750px;
 }
+
+.kcoufilmstrip {
+  position: center;
+  top: 50px;
+  width: 190%;
+  height: 90%;
+}
+
+.kcoufilmstrip2{
+  position: center;
+  top: 50px;
+  width: 190%;
+  height: 90%;
+
 
 .kcouheader{
   display: flex;
