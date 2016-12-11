@@ -335,7 +335,7 @@ h3 {
   font-family: 'Quicksand', sans-serif;
   font-weight: normal;
   text-align: center;
-  line-height: 250%;
+  line-height: 200%;
   margin: 3%;
 }
 
@@ -359,9 +359,8 @@ h3 {
 .mutvnologo {
   display: flex;
   flex-flow: column;
-  padding-right: 10px;
   width: 80%;
-  max-width: 750px;
+  max-width: 1000px;
 }
 
 .mutvheader{
@@ -371,13 +370,14 @@ h3 {
 
 .mutvabout{
   background-image: url("photos/mutvjoin.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center;
   display: table;
   width: 100%;
   height: 90%;
-  max-width: 1280px;
-  margin: 85px auto;
+  max-width: 1500px;
+  margin:auto;
+  font-size: 1em;
 }
 
 .mutvaboutcontent{
@@ -385,30 +385,21 @@ h3 {
   font-family: 'Quicksand', sans-serif;
   color: white;
   text-align: left;
-  padding-top: 20px;
   vertical-align: center;
   display: table;
   margin: 15%;
   }
 
-.mutvaboutemail{
-  font-size: 2.5em;
-  font-family: 'Quicksand', sans-serif;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  width:100%;
-  padding-bottom: 20px;
-}
 
 .mutvfilmstrip img{
-  width: 35%;
+  width: 40%;
   height: auto;
 }
 
 .mutvfilmstrip2 img{
-  width: 35%;
+  width: 40%;
   height: auto;
+  padding-bottom: 20px;
 }
 
 
@@ -519,7 +510,7 @@ h6{
 #SHOWSCHEDULE{
   background-color: #e7c07c;
   width: 100%;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 #social_icons {
@@ -576,6 +567,7 @@ h6{
       display: block;
       text-align: right;
       text-decoration: none;
+      padding-bottom: 20px;
     }
 
     .mutvnavigation{
@@ -594,14 +586,18 @@ h6{
       width: 100%;
     }
 
-    .mutvmainlogo{
-      display:inline;
-      max-width: 100px;
-    }
+.mutvfilmstrip img{
+  padding-top: 10px;
+  width: 48%;
+  height: auto;
+}
 
-    .mutvlogo{
-      display:none;
-    }
+.mutvfilmstrip2 img{
+  width: 48%;
+  height: auto;
+}
+
+
 
   h6, h5, h3{
     padding-right: 10px;
