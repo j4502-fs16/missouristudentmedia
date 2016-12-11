@@ -611,18 +611,16 @@ h5{
   max-width: 750px;
 }
 
-.kcoufilmstrip {
-  position: center;
-  top: 50px;
-  width: 190%;
-  height: 90%;
+.kcoufilmstrip img {
+
+  width: 40%;
+  height: auto;
 }
 
-.kcoufilmstrip2{
-  position: center;
-  top: 50px;
-  width: 190%;
-  height: 90%;
+.kcoufilmstrip2 img{
+
+  width: 40%;
+  height: auto;
 }
 
 
