@@ -156,6 +156,7 @@ iframe{
 .menu-trigger{
   order:1;
 }
+
 header{
   order:2;
   justify-content: space-around;
@@ -208,6 +209,10 @@ header{
     color: black;
     width: 1%;
     text-decoration: none;
+}
+
+.menu-trigger a:hover {
+  text-decoration:none;
 }
 
 
