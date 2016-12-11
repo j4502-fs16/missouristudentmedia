@@ -698,6 +698,12 @@ h6{
   font-weight: normal;
 }
 
+
+.kcounavigation a:hover{
+  background: #9A9A9A;
+}
+
+
 .kcounav li {
   list-style-type: none;
   font-size: 30px;
@@ -955,6 +961,10 @@ h7{
   display: inline;
   font-family: 'Quicksand', sans-serif;
   font-weight: normal;
+}
+
+.mannavigation a:hover{
+  background: #9A9A9A;
 }
 
 .mannav li {
