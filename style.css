@@ -700,7 +700,6 @@ span {
 .papers {
   -webkit-column-count: 3;
   -webkit-column-gap: 10px;
-  -webkit-column-rule-style: solid;
   column-count: 3;
 }
 
