@@ -63,7 +63,7 @@ p{
   text-align: left;
   width:100%;
   font-size: 14px;
-  color: #EEAC00;
+  color: #e7c07c;
 }
 
 .aboutcontent{
@@ -75,7 +75,7 @@ p{
 
 .aboutparagraph{
   font-size: 1.1em;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Lora', serif;
   color: white;
   text-align: left;
   padding-top: 20px;
@@ -130,6 +130,7 @@ iframe{
 
 .awardsheader p{
   text-align:center;
+  font-family: 'Lora', serif;
   padding: 0px 50px;
 }
 
