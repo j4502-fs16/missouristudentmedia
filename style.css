@@ -129,7 +129,8 @@ iframe{
 }
 
 .awardsheader p{
-    text-align:center;
+  text-align:center;
+  padding: 0px 50px;
 }
 
 .listawards{
@@ -292,9 +293,6 @@ padding-bottom: 20px;
   .listawards{
     display:flex;
     flex-flow:row;
-    width: 100%;
-    padding-left: 20px;
-    padding-right:20px;
   }
 
   h1{
