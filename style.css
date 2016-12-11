@@ -782,6 +782,26 @@ padding-bottom:20px;
   margin: 15%;
 }
 
+h7{
+  font-size: 1.1em;
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+  text-align: left;
+  vertical-align: center;
+  display: table;
+  padding-left: 200px;
+  padding-right:200px;
+  padding-bottom: 10px;
+}
+
+.kcouschedule img{
+  width:100%;
+}
+
+.ifmobile{
+  display:none;
+}
+
 @media all and (max-width:800px){
 
 
@@ -807,7 +827,6 @@ padding-bottom:20px;
         width: 100%;
       }
 
-<<<<<<< HEAD
     .kcoufilmstrip img {
       padding-top: 30px;
       width:48%;
@@ -819,22 +838,35 @@ padding-bottom:20px;
       width:48%;
       height: auto;
     }
-=======
-      .kcoumainlogo{
-        display:inline;
-        max-width: 100px;
-      }
-
-      .kcoulogo{
-        display:none;
-      }
->>>>>>> origin/master
 
     .kcouaboutparagraph{
       padding-left: 10px;
       padding-right:10px;
     }
+
+    h7{
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: left;
+  }
+
+  .regschedule{
+  display: none;
+  }
+
+  .ifmobile{
+    display:block;
+    max-width: 600px;
+    align-items: center;
+    padding:30px;
+  }
+
+  .ifmobile img{
+    padding:5px;
+  }
+
 }
+
 
 /*START OF MANEATER STYLE*/
 
