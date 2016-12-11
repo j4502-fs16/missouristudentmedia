@@ -594,6 +594,36 @@ span {
     padding-right: 11px;
 }
 
+.kcouabout{
+  background-image: url("photos/joinkcou.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: table;
+  width: 100%;
+  height: 450px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.kcouaboutheader {
+  text-align: left;
+  width:100%;
+  font-size: 20px;
+  color: #EEAC00;
+}
+
+.kcouaboutparagraph{
+  font-size: 1.1em;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  text-align: left;
+  vertical-align: center;
+  padding-left: 14%;
+  width: 60%;
+  height: 90%;
+  margin: 7%;
+}
+
 @media all and (max-width:800px){
 
 
