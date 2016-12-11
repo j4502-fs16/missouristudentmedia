@@ -402,18 +402,14 @@ h3 {
   padding-bottom: 20px;
 }
 
-.mutvfilmstrip {
-  position: left;
-  top: 50px;
-  width: 190%;
-  height: 90%;
+.mutvfilmstrip img{
+  width: 35%;
+  height: auto;
 }
 
-.mutvfilmstrip2{
-  position: center;
-  top: 50px;
-  width: 190%;
-  height: 90%;
+.mutvfilmstrip2 img{
+  width: 35%;
+  height: auto;
 }
 
 
