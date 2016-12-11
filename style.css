@@ -970,10 +970,15 @@ padding-bottom:20px;
   font-family: 'Quicksand', sans-serif;
   font-weight: normal;
   font-size: 1em;
+  padding-bottom: 10px;
 }
 
 .maneaterreadheader {
+  margin-top: 20px;
   text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal;
+  font-size: 1em;
 }
 
 span2 {
