@@ -299,15 +299,18 @@ footer {
 
 .mutvnavigation li{
   display: inline;
+  list-style-type: none;
   font-family: 'Quicksand', sans-serif;
   font-weight: normal;
 }
 
 h3 {
-  text-align: center;
+  text-align: left;
+  padding-left: 200px;
+  padding-right: 200px;
   font-family: 'Quicksand', sans-serif;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 1em;
 }
 
 .mutvnav li {
@@ -340,7 +343,7 @@ h3 {
 .mutvnologo {
   display: flex;
   flex-flow: column;
-  padding-right: 20px;
+  padding-right: 10px;
   width: 80%;
   max-width: 750px;
 }
@@ -383,7 +386,7 @@ h3 {
 }
 
 .mutvfilmstrip {
-  position: center;
+  position: left;
   top: 50px;
   width: 190%;
   height: 90%;
@@ -396,16 +399,9 @@ h3 {
   height: 90%;
 }
 
-.streamvote {
-  text-align: center;
-}
 
 .mutvnavigation a:hover{
   background: #9A9A9A;
-}
-
-.jointoday{
-  text-align: center;
 }
 
 a:link {
@@ -417,13 +413,56 @@ a:hover {
     text-decoration: underline;
 }
 
+.streamblock{
+  background-color: #abc8d0;
+  width: 100%;
+}
+#STREAM{
+  background-color: #abc8d0;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.streamvote{
+width:100%;
+padding-bottom: 40px;
+}
+
+.voteblock{
+background-color: #e7c07c;
+width:100%;
+text-align: center;
+font-family: 'Quicksand', sans-serif;
+font-weight: normal;
+font-size: 1em;
+}
+
+
+h4 {
+font-family: 'Quicksand', sans-serif;
+font-weight: normal;
+text-decoration: none;
+font-size: 1.5em;
+text-decoration: none;
+padding-top: 30px;
+}
+
+h5{
+  text-align: left;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal;
+  font-size: 1em;
+}
+
 #slideshow {
     margin: 10px auto;
     position: relative;
-    width: 270px;
-    height: 326px;
+    width: 800px;
+    height: 300px;
     padding: 10px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    padding-bottom:40px;
 }
 
 #slideshow > div {
@@ -434,11 +473,8 @@ a:hover {
     bottom: 10px;
 }
 
-#JOIN{
-  background-color: #EEAC00;
-}
 
-#STREAM{
+#JOIN{
   background-color: #EEAC00;
 }
 
@@ -476,21 +512,6 @@ a:hover {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1em;
 }
-
-h4 {
-font-family: 'Quicksand', sans-serif;
-font-weight: normal;
-text-decoration: none;
-font-size: 20px;
-text-decoration: none;
-}
-
-span1 {
-    font-size:35px;
-    font-weight:bold;
-    text-decoration: none;
-    color: #EEAC00;
-    }
 
 .mutvmainlogo{
   display:none;
