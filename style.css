@@ -211,10 +211,6 @@ header{
     text-decoration: none;
 }
 
-.menu-trigger a:hover {
-  text-decoration:none;
-}
-
 
 #SOCIAL{
   list-style: none;
@@ -546,6 +542,10 @@ h6{
 
 .jointoday{
   padding-bottom: 30px;
+}
+
+.jointoday img{
+  text-align: center;
 }
 
 #SHOWSCHEDULE{
