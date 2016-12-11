@@ -958,10 +958,10 @@ padding-bottom:20px;
 }
 
 .readnow{
-    width: 900px;
+    width: 850px;
     height: 300px;
     column-count: 3;
-    padding-left: 120px;
+    padding-left: 70px;
 }
 
 .manheader{
@@ -979,7 +979,20 @@ padding-bottom:20px;
   font-size: 1em;
   padding-left: 100px;
   padding-right: 100px;
+}
 
+
+.maneaterfilmstrip img {
+
+  width: 35%;
+  height: auto;
+}
+
+.maneaterfilmstrip2 img{
+
+  width: 35%;
+  height: auto;
+  padding-bottom: 20px;
 }
 
 .maneatercontactinformation a:link {
