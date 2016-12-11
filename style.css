@@ -610,9 +610,7 @@ h6{
    margin-left:auto;
    margin-right:auto
   }
-
 }
-
 
 #social_icons {
       text-align: left;;
@@ -778,10 +776,8 @@ padding-bottom:20px;
   color: white;
   text-align: left;
   vertical-align: center;
-  padding-left: 14%;
-  width: 60%;
-  height: 90%;
-  margin: 7%;
+  display: table;
+  margin: 15%;
 }
 
 @media all and (max-width:800px){
@@ -804,7 +800,6 @@ padding-bottom:20px;
             text-decoration: none;
             font-size: 15px;
             text-align: right;
-
       }
 
       .kcounologo{
@@ -821,9 +816,12 @@ padding-bottom:20px;
     .kcoufilmstrip2 img{
       width:48%;
       height: auto;
-
     }
 
+    .kcouaboutparagraph{
+      padding-left: 10px;
+      padding-right:10px;
+    }
 }
 
 /*START OF MANEATER STYLE*/
