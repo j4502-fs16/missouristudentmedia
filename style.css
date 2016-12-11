@@ -669,14 +669,15 @@ h6{
 
 .kcoufilmstrip img {
 
-  width: 40%;
+  width: 35%;
   height: auto;
 }
 
 .kcoufilmstrip2 img{
 
-  width: 40%;
+  width: 35%;
   height: auto;
+  padding-bottom: 20px;
 }
 
 
@@ -689,8 +690,54 @@ h6{
   display:none;
 }
 
-#scheduel{
-  background-color: #EEAC00;
+.streamvote img{
+width:30%;
+height: auto;
+}
+
+.jointoday img {
+  width:30%;
+  height: auto;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+
+.joinkcoublock{
+  background-color: #5f788f;
+  width: 100%;
+}
+
+.streamkcoublock{
+  background-color: #bdd4e6;
+width: 100%;
+}
+
+.kcouschedule{
+  background-color: #bdd4e6;
+width: 100%;
+}
+
+.kcouschedule img{
+  padding-bottom: 40px;
+}
+
+#JOINKCOU{
+  background-color: #5f788f;
+padding-top:40px;
+padding-bottom:20px;
+
+}
+
+#STREAMKCOU{  background-color: #bdd4e6;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+#KCOUSCHEDULE2{
+  background-color: #bdd4e6;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 #social_icons {
