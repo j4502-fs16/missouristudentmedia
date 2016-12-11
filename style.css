@@ -634,6 +634,19 @@ h6{
     .mutvnologo{
       width: 100%;
     }
+
+    .mutvfilmstrip img{
+      width: 40%;
+      padding-top:40px
+    }
+    .mutvfilmstrip2 img{
+      width: 40%;
+    }
+
+    .mutvabout{
+      margin:10px;
+    }
+
     }
 
   h6, h5, h3{
