@@ -40,7 +40,7 @@ h2{
 }
 
 p{
-  font-family: 'Lora', serif;
+  font-family: 'Quicksand', sans-serif;
   text-align: left;
 }
 
@@ -63,7 +63,7 @@ p{
   text-align: left;
   width:100%;
   font-size: 14px;
-  color: #e7c07c;
+  color: #EEAC00;
 }
 
 .aboutcontent{
@@ -75,7 +75,7 @@ p{
 
 .aboutparagraph{
   font-size: 1.1em;
-  font-family: 'Lora', serif;
+  font-family: 'Quicksand', sans-serif;
   color: white;
   text-align: left;
   padding-top: 20px;
@@ -90,10 +90,14 @@ p{
   align-content: center;
 }
 
+.turnyellow{
+  background-color: #e7c07c
+}
+
 
 .collabheader {
   color: black;
-  background-color: #e7c07c;
+  padding: 0px 30px;
 }
 
 iframe{
@@ -103,20 +107,22 @@ iframe{
 }
 
 
-.collabworks, .aside {
-    flex:2 100%;
-    padding: 10px;
-    border: none;
-}
-
 .collabworks{
     display: flex;
     flex-flow:row wrap;
-    font-family: 'Lora', serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 1.1em;
-    padding-bottom: 40px;
-    background-color: #e7c07c;
 }
+
+.collabparagraphs{
+  display:none;
+}
+
+  .collabworks, .collabparagraphs, .aside {
+      flex:3 100%;
+      padding: 10px;
+      border: none;
+  }
 
 .awards{
     background-color: #9A9A9A;
@@ -125,19 +131,23 @@ iframe{
 
 .awardsheader{
   color: black;
-  padding-top: 20px;
 }
 
 .awardsheader p{
   text-align:center;
-  font-family: 'Lora', serif;
+<<<<<<< HEAD
+  font-family: 'Quicksand', sans-serif;
+  padding: 0px 30px;
+=======
   padding: 0px 50px;
+>>>>>>> origin/master
 }
 
 .listawards{
   display:flex;
   flex-flow:row wrap;
   width: 100%;
+  font-family: 'Quicksand', sans-serif;
 
 }
 
@@ -270,10 +280,27 @@ padding-bottom: 20px;
     height:100%;
   }
 
+  .collabheader{
+    padding: 0px 200px;
+  }
+
   .collabworks{
     flex-flow:row;
     height: auto;
     justify-content: center;
+  }
+
+  .collabparagraphs{
+      display: flex;
+      flex-flow:row;
+      font-family: 'Quicksand', sans-serif;
+      font-size: 1.1em;
+      padding-bottom: 10px;
+      background-color: #e7c07c;
+    }
+
+  .collabworks p{
+    display:none;
   }
 
   .video1, .video2, .video3{
@@ -289,6 +316,10 @@ padding-bottom: 20px;
   {
     border-right: dashed;
     border-width: 2px;
+  }
+
+  .awardsheader p{
+    padding: 0px 200px;
   }
 
   .listawards{
@@ -614,9 +645,7 @@ h6{
    margin-left:auto;
    margin-right:auto
   }
-
 }
-
 
 #social_icons {
       text-align: left;;
@@ -781,10 +810,8 @@ padding-bottom:20px;
   color: white;
   text-align: left;
   vertical-align: center;
-  padding-left: 14%;
-  width: 60%;
-  height: 90%;
-  margin: 7%;
+  display: table;
+  margin: 15%;
 }
 
 @media all and (max-width:800px){
@@ -812,6 +839,19 @@ padding-bottom:20px;
         width: 100%;
       }
 
+<<<<<<< HEAD
+    .kcoufilmstrip img {
+      padding-top: 30px;
+      width:48%;
+      height: auto;
+
+    }
+
+    .kcoufilmstrip2 img{
+      width:48%;
+      height: auto;
+    }
+=======
       .kcoumainlogo{
         display:inline;
         max-width: 100px;
@@ -820,7 +860,12 @@ padding-bottom:20px;
       .kcoulogo{
         display:none;
       }
+>>>>>>> origin/master
 
+    .kcouaboutparagraph{
+      padding-left: 10px;
+      padding-right:10px;
+    }
 }
 
 /*START OF MANEATER STYLE*/
@@ -917,8 +962,7 @@ padding-bottom:20px;
 }
 
 .readnow{
-    -webkit-column-count: 3;
-    width: 1000px;
+    width: 900px;
     height: 300px;
     column-count: 3;
     padding-left: 120px;
@@ -949,6 +993,24 @@ padding-bottom:20px;
 
 .maneatercontactinformation a:hover {
     text-decoration: underline;
+}
+
+.maneaterread {
+  background-color: #6fc193;
+  width:100%;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal;
+  font-size: 1em;
+  padding-bottom: 10px;
+}
+
+.maneaterreadheader {
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal;
+  font-size: 1em;
 }
 
 span2 {
