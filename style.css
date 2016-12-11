@@ -602,6 +602,10 @@ span {
   display:none;
 }
 
+#scheduel{
+  background-color: #EEAC00;
+}
+
 #social_icons {
     margin: 30px auto;
     width: 370px;
