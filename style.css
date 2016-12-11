@@ -635,13 +635,17 @@ h6{
       width: 100%;
     }
 
-    .mutvfilmstrip img{
-      width: 40%;
-      padding-top:40px
-    }
-    .mutvfilmstrip2 img{
-      width: 40%;
-    }
+  .mutvfilmstrip img {
+    padding-top: 30px;
+    width:48%;
+    height: auto;
+
+  }
+
+  .mutvfilmstrip2 img{
+    width:48%;
+    height: auto;
+  }
 
     .mutvabout{
       margin:10px;
