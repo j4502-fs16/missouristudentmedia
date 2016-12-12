@@ -391,6 +391,10 @@ h3 {
   margin-left: -30px;
 }
 
+.mutvlogo img{
+margin-top:-15px;
+}
+
 .mutvlogo li{
   list-style-type:none;
   display: flex;
@@ -399,6 +403,7 @@ h3 {
   max-width: 200px;
   padding: 10px 0px;
 }
+
 
 .mutvnologo {
   display: flex;
@@ -431,7 +436,6 @@ h3 {
   font-family: 'Quicksand', sans-serif;
   color: white;
   text-align: left;
-  vertical-align: center;
   display: table;
   margin: 10%;
   }
@@ -741,6 +745,14 @@ h6{
   padding: 10px 0px;
 }
 
+.kcoulogo{
+  margin-left: -30px;
+}
+
+.kcoulogo img{
+margin-top:-15px;
+}
+
 .kcounologo {
   display: flex;
   flex-flow: column;
@@ -771,14 +783,10 @@ h6{
   display:none;
 }
 
-.kcoustreamvote h3{
-  padding-left: 100px;
-  padding-right: 100px;
-}
-
 .kcoustreamvote img{
 width:30%;
 height: auto;
+padding-bottom: 20px;
 }
 
 .kcoujointoday img {
@@ -880,9 +888,7 @@ h2{
   text-align: left;
   vertical-align: center;
   display: table;
-  margin:5%;
-  padding-right:200px;
-  padding-left: 200px;
+  margin: 10%;
 }
 
 h7{
@@ -1001,6 +1007,15 @@ h7{
 
 .manmenu-trigger{
   display:none;
+  padding-right:10px;
+}
+
+.manlogo{
+  margin-left: -30px;
+}
+
+.manlogo img{
+margin-top:-15px;
 }
 
 .manlogo li{
@@ -1043,10 +1058,7 @@ h7{
   color: white;
   text-align: left;
   vertical-align: center;
-  padding-left: 14%;
-  width: 60%;
-  height: 90%;
-  margin: 7%;
+  margin: 10%;
 }
 
 .maneaterjoinblock{
@@ -1096,8 +1108,8 @@ align-content: center;
   font-family: 'Quicksand', sans-serif;
   font-weight: normal;
   font-size: 1em;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 
@@ -1231,6 +1243,10 @@ span2 {
 
       .maneaterjointoday{
         align-content: center;
+      }
+
+      .maneaterjointodaycontent{
+          padding:10px;
       }
 
       .maneaterjointoday img{
