@@ -471,16 +471,19 @@ a:hover {
   background-color: #abc8d0;
   padding-top: 40px;
   padding-bottom: 20px;
+  color: black;
 }
 
 .streamvote{
 width:100%;
 padding-bottom: 40px;
+color: black;
 }
 
 .streamvote h3{
   padding-left: 100px;
   padding-right: 100px;
+  color:black;
 }
 
 .voteblock{
@@ -533,6 +536,9 @@ h5{
     bottom: 10px;
 }
 
+#JOIN{
+  color:black;
+}
 .joinblock{
   background-color: #abc8d0;
   width:100%;
@@ -542,6 +548,7 @@ h5{
   font-size: 1em;
 }
 
+
 h2{
   font-family: 'Quicksand', sans-serif;
   font-weight: normal;
@@ -549,7 +556,9 @@ h2{
   font-size: 1.5em;
   text-decoration: none;
   padding-top: 30px;
+  color:black;
 }
+
 
 h6{
   text-align: left;
@@ -571,6 +580,7 @@ h6{
 #SHOWSCHEDULE{
   background-color: #e7c07c;
   width: 100%;
+  color:black;
 }
 .scheduleblock{
   width: 100%;
@@ -609,11 +619,10 @@ h6{
   padding-top: 20px;
 }
 
-
-
 .mutvmainlogo{
   display:none;
 }
+
 
 @media all and (max-width:800px){
 
@@ -768,8 +777,8 @@ h6{
 }
 
 .streamvote h3{
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .streamvote img{
@@ -790,14 +799,11 @@ height: auto;
   width: 100%;
 }
 
-.joinkcoublock h3{
-  padding-left: 200px;
-  padding-right: 200px;
-}
+
 
 .streamkcoublock{
   background-color: #bdd4e6;
-  width: 100%;
+width: 100%;
 }
 
 .kcouschedule{
@@ -810,12 +816,11 @@ width: 100%;
 }
 
 #JOINKCOU{
-  background-color: #5f788f;
+background-color: #5f788f;
 padding-top:40px;
 padding-bottom:20px;
-
+color:black;
 }
-
 
 h2{
   color: white;
@@ -824,6 +829,7 @@ h2{
 #STREAMKCOU{  background-color: #bdd4e6;
   padding-top: 40px;
   padding-bottom: 20px;
+  color:black;
 
 }
 
@@ -831,6 +837,7 @@ h2{
   background-color: #bdd4e6;
     padding-top: 40px;
     padding-bottom: 20px;
+    color:black;
 }
 
 #social_icons {
@@ -1168,6 +1175,9 @@ span2 {
     padding-right: 11px;
 }
 
+#READ{
+  color:black;
+}
 
 @media all and (max-width:800px){
 
