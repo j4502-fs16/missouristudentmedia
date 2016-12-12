@@ -806,6 +806,10 @@ width: 100%;
 width: 100%;
 }
 
+.kcouschedule h2{
+  letter-spacing: 7px;
+}
+
 .kcouschedule img{
   padding-bottom: 40px;
 }
@@ -1011,7 +1015,7 @@ margin-top:-15px;
   height: 90%;
   max-width: 1500px;
   margin: 35px auto;
-    color: white;
+  color: white;
 }
 
 .maneateraboutcontent{
