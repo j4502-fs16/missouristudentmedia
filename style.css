@@ -81,7 +81,8 @@ header{
   display: flex;
   max-width: 750px;
   align-items: center;
-  margin: 0 auto;
+  margin-left: -40px;
+  margin-right: 10px;
 }
 
 .mobile-logo li{
@@ -102,9 +103,9 @@ header{
 
 .mobile-nav{
   max-width: 750px;
-  margin: 0 auto;
+  margin-left: -40px;
+  margin-right: 10px;
   list-style:none;
-  padding-top:20px;
   display:flex;
   flex-flow: row;
 }
