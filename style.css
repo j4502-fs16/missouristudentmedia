@@ -699,20 +699,16 @@ h6{
   font-weight: normal;
 }
 
+.kcounavigation a:hover{
+  background: #9A9A9A;
+}
+
 
 .kcounavigation a:hover{
   background: #9A9A9A;
 }
 
 
-<<<<<<< HEAD
-.kcounavigation a:hover{
-  background: #9A9A9A;
-}
-
-
-=======
->>>>>>> origin/master
 .kcounav li {
   list-style-type: none;
   font-size: 30px;
