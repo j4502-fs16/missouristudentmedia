@@ -768,8 +768,8 @@ h6{
 }
 
 .streamvote h3{
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .streamvote img{
@@ -791,13 +791,13 @@ height: auto;
 }
 
 .joinkcoublock h3{
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .streamkcoublock{
   background-color: #bdd4e6;
-width: 100%;
+  width: 100%;
 }
 
 .kcouschedule{
@@ -824,6 +824,7 @@ h2{
 #STREAMKCOU{  background-color: #bdd4e6;
   padding-top: 40px;
   padding-bottom: 20px;
+
 }
 
 #KCOUSCHEDULE2{
@@ -877,7 +878,7 @@ h2{
   vertical-align: center;
   display: table;
   margin:5%;
-  padding-right:200px
+  padding-right:200px;
   padding-left: 200px;
 }
 
