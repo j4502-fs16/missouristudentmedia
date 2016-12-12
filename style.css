@@ -1137,10 +1137,11 @@ align-content: center;
   text-align: center;
   padding-top: 30px;
   padding-bottom: 20px;
+  align-items: center;
 }
 
 .maneaterreadnowicon img{
-  width: 40%;
+  width: 30%;
 }
 
 #social_icons {
