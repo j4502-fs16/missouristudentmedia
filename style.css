@@ -216,11 +216,10 @@ iframe{
 .listawards{
   display:flex;
   flex-flow:row wrap;
-  width: 100%;
+  width: 90%;
   font-family: 'Quicksand', sans-serif;
-
+  padding: 20px;
 }
-
 
 
 #SOCIAL{
@@ -333,6 +332,8 @@ padding-bottom: 20px;
   .listawards{
     display:flex;
     flex-flow:row;
+    padding: 0;
+    width: 100%;
   }
 
   h1{
