@@ -543,6 +543,11 @@ h5{
     padding-bottom:40px;
 }
 
+#slideshow img {
+  height: 320px;
+  width: auto;
+}
+
 #slideshow > div {
     position: absolute;
     top: 10px;
@@ -921,7 +926,7 @@ h7{
 }
 
 .regschedule{
-  padding-top: 20px; 
+  padding-top: 20px;
 }
 
 .kcouschedule img{
