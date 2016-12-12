@@ -1200,13 +1200,6 @@ align-content: center;
   width: 40%;
 }
 
-span2 {
-    font-size:35px;
-    font-weight:bold;
-    text-decoration: none;
-    color: #1e9f00;
-    }
-
 #social_icons {
     margin: 30px auto;
     width: 370px;
@@ -1214,15 +1207,20 @@ span2 {
     text-align: center;
 }
 
+#social_icons img{
+  width: 10%;
+  padding-top: 14px;
+  padding-right: 5px;
+}
+
 #social_icons li {
     list-style-type: none;
     display: inline;
     font-size: 20px;
     text-align: center;
-    line-height: 250%;
-    margin: 20px;
-    padding-left: 1px;
-    padding-right: 11px;
+    line-height: 10px;
+    margin: 19px;
+    padding-right: 15px;
 }
 
 #READ{
