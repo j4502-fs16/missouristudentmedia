@@ -362,8 +362,8 @@ footer {
 
 h3 {
   text-align: left;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left:200px;
+  padding-right:200px;
   font-family: 'Quicksand', sans-serif;
   font-weight: normal;
   font-size: 1em;
@@ -385,6 +385,10 @@ h3 {
 
 .mutvmenu-trigger{
   display:none;
+}
+
+.mutvlogo{
+  margin-left: -30px;
 }
 
 .mutvlogo li{
@@ -483,12 +487,6 @@ padding-bottom: 40px;
 color: black;
 }
 
-.streamvote h3{
-  padding-left: 100px;
-  padding-right: 100px;
-  color:black;
-}
-
 .voteblock{
 background-color: #e7c07c;
 width:100%;
@@ -496,11 +494,6 @@ text-align: center;
 font-family: 'Quicksand', sans-serif;
 font-weight: normal;
 font-size: 1em;
-}
-
-.voteblock h5{
-  padding-left: 100px;
-  padding-right: 100px;
 }
 
 
@@ -515,8 +508,8 @@ padding-top: 30px;
 
 h5{
   text-align: left;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left:200px;
+  padding-right:200px;
   font-family: 'Quicksand', sans-serif;
   font-weight: normal;
   font-size: 1em;
@@ -565,8 +558,8 @@ h2{
 
 h6{
   text-align: left;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left:200px;
+  padding-right:200px;
   font-family: 'Quicksand', sans-serif;
   font-weight: normal;
   font-size: 1em;
@@ -680,7 +673,6 @@ h6{
     }
 
 
-
   h6, h5, h3{
     padding-right: 10px;
     padding-left:10px;
@@ -779,17 +771,17 @@ h6{
   display:none;
 }
 
-.streamvote h3{
+.kcoustreamvote h3{
   padding-left: 100px;
   padding-right: 100px;
 }
 
-.streamvote img{
+.kcoustreamvote img{
 width:30%;
 height: auto;
 }
 
-.jointoday img {
+.kcoujointoday img {
   width:30%;
   height: auto;
   padding-bottom: 20px;
@@ -962,7 +954,7 @@ h7{
   text-align: left;
   }
 
-  .regschedule{
+  .kcouregschedule{
   display: none;
   }
 
