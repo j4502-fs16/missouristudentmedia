@@ -913,11 +913,15 @@ h2{
 h7{
   font-size: 1.1em;
   font-family: 'Lato', sans-serif;
+  font-weight:300;
   color: black;
-  display: table;
   padding-left: 200px;
   padding-right:200px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+}
+
+.regschedule{
+  padding-top: 20px; 
 }
 
 .kcouschedule img{
