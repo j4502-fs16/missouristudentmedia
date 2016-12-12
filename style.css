@@ -434,6 +434,7 @@ margin-top:-15px;
   height: 90%;
   max-width: 1500px;
   margin: 35px auto;
+  color: white;
 }
 
 .mutvaboutcontent{
@@ -816,10 +817,6 @@ padding-bottom:20px;
 color:black;
 }
 
-h2{
-  color: white;
-}
-
 #STREAMKCOU{  background-color: #bdd4e6;
   padding-top: 40px;
   padding-bottom: 20px;
@@ -847,6 +844,7 @@ h2{
   height: 90%;
   max-width: 1500px;
   margin: 35px auto;
+  color: white;
 }
 
 .kcouaboutcontent{
@@ -1013,6 +1011,7 @@ margin-top:-15px;
   height: 90%;
   max-width: 1500px;
   margin: 35px auto;
+    color: white;
 }
 
 .maneateraboutcontent{
