@@ -780,8 +780,8 @@ height: auto;
 .jointoday img {
   width:30%;
   height: auto;
-  padding-bottom: 30px;
-  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 
@@ -814,6 +814,11 @@ width: 100%;
 padding-top:40px;
 padding-bottom:20px;
 
+}
+
+
+h2{
+  color: white;
 }
 
 #STREAMKCOU{  background-color: #bdd4e6;
@@ -857,10 +862,11 @@ padding-bottom:20px;
 }
 
 .kcouaboutheader {
-  text-align: left;
+  text-align: center;
   width:100%;
   font-size: 20px;
-  color: #EEAC00;
+  color: white;
+  padding-bottom: 5px;
 }
 
 .kcouaboutparagraph{
@@ -870,7 +876,9 @@ padding-bottom:20px;
   text-align: left;
   vertical-align: center;
   display: table;
-  margin: 15%;
+  margin:5%;
+  padding-right:200px
+  padding-left: 200px;
 }
 
 h7{
@@ -932,8 +940,8 @@ h7{
 
 
     .kcouaboutparagraph{
-      padding-left: 10px;
-      padding-right:10px;
+      padding-left: 20px;
+      padding-right:20px;
     }
 
     h7{
