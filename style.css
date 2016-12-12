@@ -696,6 +696,7 @@ h6{
   display: inline;
   font-family: 'Quicksand', sans-serif;
   font-weight: normal;
+  list-style-type: none;
 }
 
 
@@ -712,6 +713,7 @@ h6{
   text-align: center;
   line-height: 250%;
   margin: 3%;
+  display: inline;
 }
 
 .kcounav a:link, a:visited {
@@ -734,6 +736,7 @@ h6{
 .kcounologo {
   display: flex;
   flex-flow: column;
+  padding-right: 10px;
   width: 80%;
   max-width: 750px;
 }
