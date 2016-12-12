@@ -358,6 +358,7 @@ footer {
   list-style-type: none;
   font-family: 'Quicksand', sans-serif;
   font-weight: normal;
+  text-decoration:none;
 }
 
 h3 {
@@ -491,6 +492,10 @@ padding-bottom: 40px;
 color: black;
 }
 
+.streamvote img{
+  text-align: center;
+}
+
 .voteblock{
 background-color: #e7c07c;
 width:100%;
@@ -498,6 +503,10 @@ text-align: center;
 font-family: 'Quicksand', sans-serif;
 font-weight: normal;
 font-size: 1em;
+}
+
+.voteblock img{
+  text-align: center;
 }
 
 
@@ -705,6 +714,7 @@ h6{
   display: inline;
   font-family: 'Quicksand', sans-serif;
   font-weight: normal;
+  text-decoration: none;
 }
 
 .kcounavigation a:hover{
@@ -787,6 +797,7 @@ margin-top:-15px;
 width:30%;
 height: auto;
 padding-bottom: 20px;
+text-align: center;
 }
 
 .kcoujointoday img {
@@ -794,6 +805,7 @@ padding-bottom: 20px;
   height: auto;
   padding-bottom: 20px;
   padding-top: 20px;
+  text-align: center;
 }
 
 
@@ -985,6 +997,7 @@ h7{
   display: inline;
   font-family: 'Quicksand', sans-serif;
   font-weight: normal;
+  text-decoration: none;
 }
 
 .mannavigation a:hover{
