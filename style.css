@@ -601,6 +601,10 @@ h6{
   background-color: #e7c07c;
 }
 
+.scheduleblock{
+  letter-spacing: 7px;
+}
+
 .scheduleblock img{
   padding-bottom: 20px;
 }
