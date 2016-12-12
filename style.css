@@ -103,7 +103,7 @@ header{
 
 .mobile-nav{
   max-width: 750px;
-  margin-left: -40px;
+  margin-left: -30px;
   margin-right: 10px;
   list-style:none;
   display:flex;
