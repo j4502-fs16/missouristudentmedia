@@ -107,7 +107,6 @@ header{
   margin-left: -30px;
   margin-right: 10px;
   list-style:none;
-  display:flex;
   flex-flow: row;
 }
 
@@ -154,8 +153,6 @@ header{
   font-weight: 300;
   color: white;
   text-align: left;
-  padding-top: 20px;
-  vertical-align: center;
   width: 90%;
 }
 
@@ -415,7 +412,6 @@ margin-top:-15px;
   display: flex;
   flex-flow: column;
   padding-right: 10px;
-  width: 80%;
   max-width: 750px;
 }
 
@@ -430,7 +426,6 @@ margin-top:-15px;
   background-repeat: no-repeat;
   background-position: center;
   display: table;
-  background-size: cover;
   width: 100%;
   height: 90%;
   max-width: 1500px;
@@ -446,16 +441,6 @@ margin-top:-15px;
   display: table;
   margin: 10%;
   }
-
-.mutvaboutemail{
-  font-size: 2.5em;
-  font-family: 'Quicksand', sans-serif;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  width:100%;
-  padding-bottom: 20px;
-}
 
 .mutvfilmstrip img{
   width: 35%;
@@ -574,9 +559,7 @@ h2{
   font-weight: normal;
   text-decoration: none;
   font-size: 1.5em;
-  text-decoration: none;
   padding-top: 30px;
-  color:black;
 }
 
 
@@ -609,25 +592,6 @@ h6{
 
 .scheduleblock img{
   padding-bottom: 20px;
-}
-
-
-#social_icons {
-    margin: 30px auto;
-    width: 370px;
-    height: 30px;
-    text-align: center;
-}
-
-#social_icons li {
-    list-style-type: none;
-    display: inline;
-    font-size: 20px;
-    text-align: center;
-    line-height: 250%;
-    margin: 20px;
-    padding-left: 1px;
-    padding-right: 11px;
 }
 
 #footer {
@@ -866,54 +830,30 @@ h2{
     color:black;
 }
 
-#social_icons {
-    margin: 30px auto;
-    width: 370px;
-    height: 30px;
-    text-align: center;
-}
-
 #social_icons li {
-    list-style-type: none;
-    display: inline;
-    font-size: 20px;
-    text-align: center;
-    line-height: 250%;
-    margin: 20px;
     padding-left: 1px;
-    padding-right: 11px;
 }
 
 .kcouabout{
   background-image: url("photos/joinkcou.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
   display: table;
   width: 100%;
-  height: 450px;
+  height: 90%;
   max-width: 1500px;
-  margin: 0 auto;
+  margin: 35px auto;
 }
 
-.kcouaboutheader {
-  text-align: center;
-  width:100%;
-  font-size: 20px;
-  color: white;
-  padding-bottom: 5px;
-}
-
-.kcouaboutparagraph{
+.kcouaboutcontent{
   font-size: 1.1em;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   color: white;
   text-align: left;
-  vertical-align: center;
   display: table;
   margin: 10%;
-}
+  }
 
 h7{
   font-size: 1.1em;
@@ -975,9 +915,8 @@ h7{
     }
 
 
-    .kcouaboutparagraph{
-      padding-left: 20px;
-      padding-right:20px;
+    .kcouabout{
+      background-size: cover;
     }
 
     h7{
@@ -1065,29 +1004,22 @@ margin-top:-15px;
   background-image: url("photos/joinmaneater.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
   display: table;
   width: 100%;
-  height: 450px;
-  max-width: 1280px;
-  margin: 0 auto;
+  height: 90%;
+  max-width: 1500px;
+  margin: 35px auto;
 }
 
-.maneateraboutheader {
-  text-align: left;
-  width:100%;
-  font-size: 20px;
-}
-
-.maneateraboutparagraph{
+.maneateraboutcontent{
   font-size: 1.1em;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   color: white;
   text-align: left;
-  vertical-align: center;
+  display: table;
   margin: 10%;
-}
+  }
 
 .maneaterjoinblock{
   background-color: #e3e3e3;
@@ -1250,6 +1182,10 @@ align-content: center;
 
       .mannologo{
         width: 100%;
+      }
+
+      .maneaterabout{
+        background-size: cover;
       }
 
       .maneaterfilmstrip img {
