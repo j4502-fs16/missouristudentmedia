@@ -134,8 +134,8 @@ header{
 .aboutheader {
   text-align: left;
   width:100%;
-  font-size: 14px;
-  color: #EEAC00;
+  font-size: 1em;
+  color: white;
 }
 
 .aboutcontent{
@@ -336,6 +336,7 @@ padding-bottom: 20px;
   h1{
     font-size: 45px;
   }
+
 }
 
 
@@ -406,6 +407,7 @@ h3 {
   flex-flow: row;
 }
 
+
 .mutvabout{
   background-image: url("photos/mutvjoin.jpg");
   background-repeat: repeat;
@@ -422,7 +424,6 @@ h3 {
   font-family: 'Quicksand', sans-serif;
   color: white;
   text-align: left;
-  padding-top: 20px;
   vertical-align: center;
   display: table;
   margin: 15%;
