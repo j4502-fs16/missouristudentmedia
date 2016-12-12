@@ -889,7 +889,6 @@ h7{
   font-size: 1.1em;
   font-family: 'Quicksand', sans-serif;
   color: black;
-  text-align: left;
   vertical-align: center;
   display: table;
   padding-left: 200px;
@@ -951,10 +950,10 @@ h7{
     h7{
   padding-left: 10px;
   padding-right: 10px;
-  text-align: left;
+  vertical-align: center;
   }
 
-  .kcouregschedule{
+  .regschedule{
   display: none;
   }
 
@@ -962,11 +961,12 @@ h7{
     display:block;
     max-width: 600px;
     align-items: center;
-    padding:30px;
   }
 
   .ifmobile img{
     padding:5px;
+    text-align: center;
+    width: 90%;
   }
 
 }
